@@ -79,7 +79,7 @@ function Navbar() {
                     }
 
                 </button>
-                <img className='lg:w-64 md:w-52 w-40' src="https://taylorandfrancis.com/wp-content/themes/u_new2tfg/assets/img/structure/logo.svg" alt="" />
+                <img className='lg:w-31 md:w-30 w-20' src="https://i.ibb.co/9sS50Zb/trc-logo.png" alt="" />
                 <div className='lg:flex justify-between items-center w-[50%] mx-auto hidden'>
                     {/* {
                         navbar.map((item, index) => <div className='group' key={index} ><NavLink className='text-white text-xl navLink font-semibold' to={item.navlink} >{item.nav}</NavLink>

@@ -100,7 +100,7 @@ function UnderBanner() {
             <div className='bg-[#ffbf001c] py-14'>
                 <div className='container mx-auto lg:px-28 md:px-10 px-5 '>
                     <h1 className='xl:text-5xl lg:text-4xl text-3xl  font-medium font-sans text-[#a57c00] text-center'>Content and Research Platforms</h1>
-                    <p className='text-center lg:text-[1.6rem] text-base font-sans mt-14 text-[#a57c00]'>Taylor & Francis offers a range of content platforms to connect readers to knowledge. They are built around customer needs with the aim of facilitating discovery and allow users to access relevant research and information quickly and easily, wherever they are.</p>
+                    <p className='text-center lg:text-[1.6rem] text-base font-sans mt-14 text-[#a57c00]'>TRC Sapphire Publisher offers a range of content platforms to connect readers to knowledge. They are built around customer needs with the aim of facilitating discovery and allow users to access relevant research and information quickly and easily, wherever they are.</p>
                 </div>
             </div>
         </>

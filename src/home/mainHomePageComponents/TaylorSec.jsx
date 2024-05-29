@@ -6,11 +6,11 @@ function TaylorSec() {
     const data = [
         {
             img: 'https://taylorandfrancis.com/wp-content/uploads/2022/03/f1000-homepage-22.jpg',
-            title: 'Taylor & Francis Online'
+            title: 'TRC Sapphire Publisher Online'
         },
         {
             img: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/screenshot-tfe.jpg',
-            title: 'Taylor & Francis eBooks'
+            title: 'TRC Sapphire Publisher eBooks'
         },
         {
             img: 'https://taylorandfrancis.com/wp-content/uploads/2022/03/f1000-homepage-22.jpg',

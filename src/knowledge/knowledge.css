@@ -1,0 +1,9 @@
+
+
+.knowledgeImg {
+    filter: brightness(0) invert(0.50);
+}
+
+.group:hover .knowledgeImg{
+    filter: brightness(0) invert(0);
+}

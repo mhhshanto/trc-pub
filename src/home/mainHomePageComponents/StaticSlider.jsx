@@ -36,10 +36,10 @@ function StaticSlider() {
     ]
 
     return (
-        <div className='lg:mt-28  text-black xl:gap-24 gap-10 md:px-24 sm:px-12 px-3 py-20 mx-auto relative flex flex-col-reverse lg:flex-row  items-start justify-between bg-gradient-to-r from-[#FFBE00] to-[#FFCF3F]'>
+        <div className='lg:mt-28  text-black xl:gap-24 gap-10 md:px-24 sm:px-12 px-3 py-10 mx-auto relative flex flex-col-reverse lg:flex-row  items-start justify-between bg-gradient-to-r from-[#FFBE00] to-[#FFCF3F]'>
             <div className={`lg:w-[50%] xl:pl-5`}>
-                <h1 className="xl:text-6xl font-semibold sm:text-5xl text-3xl">Getting savvy about media literacy</h1>
-                <p className="xl:text-4xl sm:text-3xl text-xl mt-10 ">Navigating a shifting media landscape in the digital age</p>
+                <h1 className="xl:text-5xl font-semibold sm:text-5xl text-3xl">TRC Sapphires Publisher: Elevating Academic Excellence</h1>
+                <p className="sm:text-2xl text-xl mt-10 ">Publishing a book is a significant milestone for any author, and choosing the right publisher can make all the difference. Here are ten compelling reasons why publishing your book with TRC Publisher could be a great choice</p>
                 {/* <div className="xl:mt-14 mt-10 flex justify-end"><button className="px-5 py-1 text-white rounded-full bg-[#A57C00] hover:bg-[#C09B30] transition duration-300 font-semibold">Read more</button></div> */}
             </div>
             <div className={`rounded-xl lg:w-[50%] pt-10`}>

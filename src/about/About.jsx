@@ -49,21 +49,108 @@ function About() {
             <div className='flex flex-col-reverse md:flex-row gap-5 sm:container mx-auto px-3 my-8'>
                 <div className='md:w-[66%]'>
                     <p className='font-bold text-gray-700'>TRC Sapphire Publisher is one of the world’s leading academic publishers – and one of its most enduring.</p>
-                    <p className='mt-5 text-gray-700'>For more than two centuries TRC Sapphire Publisher has been committed to the highest quality scholarly publishing, and this remains our goal today. Our purpose is to foster human progress through knowledge – something we’ve been doing since the Enlightenment. We aim to promote a positive future for everyone through our work</p>
-                    <p className='mt-5 text-gray-700'>Our imprints include TRC Sapphire Publisher, Routledge, CRC Press, F1000 Research, Dovepress and PeerJ. We’ve published over 145,000 book titles, and we actively publish over 2,700 journals.</p>
+                    <p className='mt-5 text-gray-700'><span className='font-bold'>TRC Sapphires Publisher</span> stands as a cornerstone in the academic publishing realm, dedicated to advancing knowledge, fostering critical thinking, and amplifying scholarly discourse. With a steadfast commitment to academic excellence, integrity, and innovation, TRC Sapphires Publisher serves as a trusted partner for academics, researchers, and institutions worldwide.</p>
 
-                    <h1 className='mt-14 text-3xl text-gray-700'>Our mission</h1>
-                    <p className='font-bold mt-5 text-gray-700'>Our mission is to support, validate, and connect the work of researchers and other knowledge makers, so that it can make the fullest possible contribution.</p>
-                    <p className='mt-5 text-gray-700'>We empower learners, thinkers, and doers with trusted knowledge that advances research and enriches lives. We bring together diverse people, ideas, and opinions to validate and publish the experts, theories, and truths that matter. And we’ve been doing this since 1798.</p>
+                    <h1 className='mt-14 text-3xl text-gray-700'>Mission Statement:</h1>
+                    
+                   <div className='mt-5'>
+                   <li className='mt-3'>Our mission at TRC Sapphires Publisher is to facilitate the dissemination of cutting-edge research, scholarly insights, and educational resources that shape the future of academia and society. </li>
+                   <li className="mt-3">We are driven by a passion for knowledge and a commitment to empowering scholars to make meaningful contributions to their fields.</li>
+                   <li className="mt-3">Publishing a book is a significant milestone for any author, and choosing the right publisher can make all the difference.</li>
+                   <li className="mt-3">Converting a thesis into a book is a significant endeavor that requires careful planning, restructuring, and refining to adapt the content for a broader audience and publication format</li>
+                   </div>
 
-                    <h1 className='mt-14 text-3xl text-gray-700'>Our story</h1>
-                    <p className='font-bold mt-5 text-gray-700'>We’ve been advancing research and enriching lives since the 18th Century.</p>
-                    <p className='mt-5 text-gray-700'>TRC Sapphire Publisher was founded in London in 1852, but our roots go back to 1798 when Richard Taylor launched the Philosophical Magazine, one of the first scientific journals. Routledge, which TRC Sapphire Publisher acquired in 1998, was also founded in 1852 and is now considered to be the leading English-language publisher of humanities and social sciences. The merged company has become one of the top five research publishers globally.</p>
-                    <p className='mt-5 text-gray-700'>In 2003 we acquired CRC Press, best known for titles in engineering, materials science, and mathematics. In 2004 TRC Sapphire Publisher merged with Informa, and has been its academic publishing division since then.</p>
-                    <p className='mt-5 text-gray-700'>More recent acquisitions include Dove Medical Press in 2017, which specializes in medical journals. In 2020 we acquired F1000, which provides open research publishing venues that support data deposition and sharing to research funders and institutions. These include the European Commission, Wellcome, and the Bill & Melinda Gates Foundation.</p>
-                    <p className='mt-5 text-gray-700'>In 2023 we expanded our medical publishing further with the acquisition of 27 new journals and six digital hubs – online communities for medical and scientific professionals. We also extended our offering of publishing solutions to medical communications agencies, including our market-leading Plain Language Summary service. And in 2024, we acquired PeerJ, an award-winning Open Access science publisher with seven fully Open Access journals in biomedical, life, environmental, physical, and computer sciences.</p>
-                    <p className='mt-5 text-gray-700'>Today our brands advance knowledge across humanities and social sciences, science and technology, engineering, medicine, and healthcare.</p>
-                    <p className='mt-5 text-gray-700'>Read more about our history.</p>
+                    <h1 className='mt-14 text-3xl text-gray-700'>Why Choose TRC Sapphires Publisher:</h1>
+                    <p className='mt-5 text-gray-700'>
+                    Publishing an academic book is a significant milestone in any scholar's career, and choosing the right publisher is crucial for maximizing the impact and visibility of your work.
+                    </p>
+
+                    
+
+                    <p className='font-bold mt-5 text-gray-700'>Here are 10 compelling reasons why you should consider publishing your academic book with TRC Publisher:</p>
+
+                    <div className='mt-5'>
+                        <div className='flex gap-2 mt-3'>
+                            <span className='font-bold'>1.</span>
+                        <p className=''><span className='font-bold'>
+                         Academic Excellence:
+                            </span> TRC Publisher is dedicated to upholding the highest standards of academic rigor and quality, ensuring that your book meets the rigorous standards of scholarship and research.</p>
+                        </div>
+
+                        <div className='flex gap-2 mt-3'>
+                            <span className='font-bold'>2.</span>
+                        <p className=''><span className='font-bold'>
+                         Expertise in Academic Publishing:
+                            </span> With years of experience in academic publishing, TRC Publisher understands the unique needs and challenges of scholars and researchers, providing expert guidance and support throughout the publishing process.</p>
+                        </div>
+
+                        <div className='flex gap-2 mt-3'>
+                            <span className='font-bold'>3.</span>
+                        <p className=''><span className='font-bold'>
+                        Personalized Approach:
+                            </span>They offer a personalized approach to publishing, taking the time to understand each author's unique vision and goals for their academic book.</p>
+                        </div>
+
+                        <div className='flex gap-2 mt-3'>
+                            <span className='font-bold'>4.</span>
+                        <p className=''><span className='font-bold'>
+                        Quality Production:
+                            </span>TRC Publisher is committed to producing high-quality books, ensuring that every aspect of the publishing process, from editing to design, meets the highest standards.</p>
+                        </div>
+
+                        <div className='flex gap-2 mt-3'>
+                            <span className='font-bold'>5.</span>
+                        <p className=''><span className='font-bold'>
+                        Global Distribution Networks:
+                            </span>With extensive distribution networks, including academic libraries, bookstores, and online platforms, TRC Publisher ensures that your book reaches a global audience of scholars, researchers, and students. They provide comprehensive marketing support, helping authors promote their books through various channels, including social media, book signings, and author events</p>
+                        </div>
+
+                        <div className='flex gap-2 mt-3'>
+                            <span className='font-bold'>6.</span>
+                        <p className=''><span className='font-bold'>
+                        Professional Editorial Services:
+                            </span> TRC Publisher provides professional editorial services, including copyediting, formatting, and indexing, to ensure clarity, coherence, and precision in your academic writing. TRC Publisher employs a rigorous peer review process to ensure the quality and credibility of your academic work, maintaining the integrity of scholarly research and enhancing its academic impact.</p>
+                        </div>
+
+                        <div className='flex gap-2 mt-3'>
+                            <span className='font-bold'>7.</span>
+                        <p className=''><span className='font-bold'>
+                        Personalized Support:
+                            </span> TRC Publisher offers personalized support and guidance to authors, providing strategic advice on manuscript development, publication strategies, and academic career advancement.</p>
+                        </div>
+
+                        <div className='flex gap-2 mt-3'>
+                            <span className='font-bold'>8.</span>
+                        <p className=''><span className='font-bold'>
+                        Author Rights and Ownership:
+                            </span> TRC Publisher respects author rights and ownership, allowing you to retain control over your intellectual property and ensuring that your academic work is protected and respected. TRC Publisher respects author rights and ownership, allowing you to retain control over your intellectual property and ensuring that your academic work is protected and respected.</p>
+                        </div>
+                        <div className='flex gap-2 mt-3'>
+                            <span className='font-bold'>9.</span>
+                        <p className=''><span className='font-bold'>
+                        Long-Term Partnership:
+                            </span> TRC Publisher views the author-publisher relationship as a long-term partnership, providing ongoing support and opportunities for authors beyond the initial publication of their book. TRC Publisher is committed to making a positive impact on academia and society by disseminating innovative research, critical insights, and educational resources that advance knowledge and address pressing societal challenges.</p>
+                        </div>
+                        <div className='flex gap-2 mt-3'>
+                            <span className='font-bold'>10.</span>
+                        <p className=''><span className='font-bold'>
+                        Commitment to Impactful Research:
+                            </span> By partnering with TRC Publisher, corporate entities demonstrate a commitment to producing impactful research and contributing to the advancement of knowledge within their industries, fostering innovation and growth.</p>
+                        </div>
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <p className='mt-5 text-gray-700'>
+                    At TRC Sapphires Publisher, we believe that academic publishing is not just about disseminating knowledge but also about inspiring intellectual curiosity, fostering interdisciplinary dialogue, and shaping the future of scholarship. Join us in our mission to elevate academic excellence and contribute to the advancement of knowledge and understanding in every field of study.
+                    </p>
 
                     <h1 className='mt-14 text-3xl text-gray-700'>A commitment to people and knowledge</h1>
                     <p className='font-bold mt-5 text-gray-700'>Knowledge empowers people to think, do, and be more than they ever could before.</p>

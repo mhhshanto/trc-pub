@@ -99,7 +99,7 @@ function SubjectArea() {
         </div>
 
 
-        <div className='w-[70%] grid md:grid-cols-3 grid-cols-1 gap-5'>
+        <div className='md:w-[70%]  grid md:grid-cols-3 grid-cols-1 gap-5'>
           {
             data.map((item, index) => <div key={index}>
               <h1 className='text-xl mb-4'>{item.title}</h1>

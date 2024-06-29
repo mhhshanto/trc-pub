@@ -19,7 +19,7 @@ function Diversity() {
             underDesList: [
                 'At TRC Sapphire Publisher we want to hire, support, and develop the best talent across all communities. We are working hard to identify and remove barriers to inclusion, and we know there is still more to do.',
 
-                'We want candidates from all backgrounds to consider applying for jobs at TRC Sapphire Publisher To achieve this we know our recruitment process must reflect this intention and be free of any barriers. We welcome any feedback on our approach. (Please contact dei@taylorandfrancis.com)',
+                'We want candidates from all backgrounds to consider applying for jobs at TRC Sapphire Publisher To achieve this we know our recruitment process must reflect this intention and be free of any barriers. We welcome any feedback on our approach.',
 
                 'Watch the video to find out about the steps we take to attract and hire diverse candidates, and why DE&I is important to us.',
 

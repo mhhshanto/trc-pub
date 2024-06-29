@@ -63,7 +63,7 @@ function DyPress() {
         <div className="flex md:flex-row flex-col gap-10">
             <div className="md:w-[66%]">
                 <h1 className="text-4xl font-medium font-serif ">The Publishing Process</h1>
-                <h2 className="sm:text-3xl text-2xl mt-5 font-semibold">The Taylor & Francis books publishing process consists of 10 key stages.</h2>
+                <h2 className="sm:text-3xl text-2xl mt-5 font-semibold">The TRC Sapphires Publisher books publishing process consists of 10 key stages.</h2>
 
                 <p className="my-4">Learn about the basic steps to our publishing process for transforming an idea to an authoritative book for academic study or professional development.</p>
 
@@ -115,7 +115,7 @@ function DyPress() {
 
                 <div className="bg-gray-100 px-5 mt-10 py-5 border-t-[6px] border-t-amber-700 border-b">
                     
-                    <img className="w-[75%] mx-auto mt-4" src="https://i.ibb.co/8jFYvB2/Taylor-and-Francis-Open-Access-Books-and-Chapters.jpg" alt="" />
+                    <img className="w-[75%] mx-auto mt-4" src="https://i.ibb.co/NpPrSdh/Whats-App-Image-2024-06-23-at-11-51-18-5bacf376.jpg" alt="" />
                     <p className="text-center mt-4">Are you interested to find out about our Open Access Books program? Then click the button below. </p>
                     <div className="w-full mt-4 mb-8 flex justify-center items-center">
                         <button className="bg-amber-700 py-2 w-fit rounded-md px-3 text-lg font-sans uppercase text-white">
@@ -125,7 +125,7 @@ function DyPress() {
                 </div>
 
                 <div className="bg-gray-100 px-5 py-10 border-t-[6px] mt-10 border-t-amber-700 border-b">
-                    <img className="w-[70%] mx-auto" src="https://asset.routledge.com/rt-files/AUTHOR/TandF_LOGO-01.png" alt="" />
+                    <img className="w-[70%] mx-auto" src="https://i.ibb.co/SdBsMc7/Picsart-24-06-29-15-18-39-711-removebg-preview.png" alt="" />
                     <h1 className="text-2xl my-5">Expert book editing support from cover to cover</h1>
                     <p>For authors who would like English language support, our  Book Editing service  offers you the opportunity to have your work reviewed by editing experts.</p>
                 </div>

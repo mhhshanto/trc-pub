@@ -88,7 +88,7 @@ function Contact() {
 
 
     return (
-        <div className='lg:mt-28 mt-16'>
+        <div className='lg:mt-[110px] mt-16'>
             <div className='bg-[url("https://taylorandfrancis.com/wp-content/uploads/2021/04/bg-world-4.jpg")] bg-cover bg-no-repeat '>
                 <div className='bg-[#00000082]'>
                     <h1 className='pt-20 pb-5 text-3xl md:container px-3 text-white'>Contact us</h1>
@@ -96,8 +96,8 @@ function Contact() {
                 </div>
             </div>
 
-            <div className='flex flex-col-reverse md:flex-row gap-5 sm:container mx-auto px-3 my-8'>
-                <div className='md:w-[66%]'>
+            <div className='flex h-[40vh] flex-col-reverse md:flex-row gap-5 sm:container mx-auto px-3 my-8'>
+                {/* <div className='md:w-[66%]'>
 
                     <h1 className='text-3xl border-gray-300 border-b pb-3  text-gray-700'>Headquarters</h1>
                     <p className='my-4'>If you have a general query please get in touch with us at HQ and we will be happy to help:</p>
@@ -160,7 +160,7 @@ function Contact() {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
 
                 {/* <div className='md:w-[34%] border-t-[8px] border-yellow-500 h-fit bg-slate-100 px-5 py-8'>
                     {

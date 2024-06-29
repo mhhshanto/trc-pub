@@ -88,7 +88,7 @@ function DynamicContent() {
 
 
   return (
-    <div className='lg:mt-32 mt-20'>
+    <div className='lg:mt-[110px] mt-16'>
       {/* timer here */}
       <div className='bg-amber-600 text-white flex flex-col items-center px-3 py-3'>
         <h1 className='md:text-2xl font-serif'>Buy 2 or more • <span className='font-semibold'>SAVE 25%</span> on all Books & eBooks • <span className='underline cursor-pointer'>Shop Now »</span></h1>

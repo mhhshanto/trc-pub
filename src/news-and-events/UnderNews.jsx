@@ -45,7 +45,7 @@ function UnderNews() {
                             <p className='text-nowrap text-lg font-medium'>Filter by</p>
                             <select className='w-full border border-gray-300 py-2 px-3 rounded' name="" id="">
                                 <option value="Latest (all releases)">Latest (all releases)</option>
-                                <option value="Taylor and Francis News">Taylor and Francis News</option>
+                                <option value="TRC Sapphires Publisher News">TRC Sapphires Publisher News</option>
                                 <option value="Most Popular Articles">Most Popular Articles</option>
                                 <option value="Upcoming Events">Upcoming Events</option>
                                 <option value="Journal Submissions">Journal Submissions</option>

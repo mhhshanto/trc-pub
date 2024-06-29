@@ -4,7 +4,7 @@ function Guidelines() {
 
     const data = [
         {
-            title: 'Introductory information about publishing with Taylor & Francis',
+            title: 'Introductory information about publishing with TRC Sapphires Publisher',
             des: 'These guides give an overview of the audiences for our books, what we publish, and how we ensure our products are accessible and can be found by readers.',
             listItem:[
                 'Overview of the book publishing process',
@@ -36,7 +36,7 @@ function Guidelines() {
                 'Indexing guide',
                 'Editing a multi contributor book',
             ],
-           subDes:'The video below will take you through the production process at Taylor & Francis, so you know exactly what to expect at each stage.',
+           subDes:'The video below will take you through the production process at TRC Sapphires Publisher, so you know exactly what to expect at each stage.',
            img:'https://i.ytimg.com/vi/USvC4pQ7l1Y/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-DoACuAiKAgwIABABGGUgZShlMA8=&rs=AOn4CLAZzGEdsfOSz9lqnmyulUtpqaQqZQ' 
         },
         {
@@ -85,7 +85,7 @@ function Guidelines() {
                 <div className='pb-10 border-b'>
                     <h1 className="text-4xl font-medium font-serif ">Publishing Guidelines and Forms</h1>
 
-                    <p className="my-4">Here you'll find everything you need to know about the Taylor and Francis book publishing process.</p>
+                    <p className="my-4">Here you'll find everything you need to know about the TRC Sapphires Publisher book publishing process.</p>
                     <p className="my-4">This may look like a bit of a long list of publishing guidelines, checklists, and forms, but please don't worry. Your editor will help you at every step along your publishing journey by letting you know which documents you need to read or forms you need to complete and when.</p>
                 </div>
 
@@ -118,7 +118,7 @@ function Guidelines() {
 
                 <div className="bg-gray-100 px-5 py-10 border-t-[6px]  border-t-amber-700 border-b">
                     <h1 className="text-2xl mb-3">Author FAQs</h1>
-                    <p className='my-3'>Click the links below to read the answers to frequently asked questions about various parts of the book publishing process at Taylor & Francis: </p>
+                    <p className='my-3'>Click the links below to read the answers to frequently asked questions about various parts of the book publishing process at TRC Sapphires Publisher: </p>
 
                     <div className='text-blue-900 underline '>                        
                        <li>Electronic Publishing and Open Access</li>
@@ -151,7 +151,7 @@ function Guidelines() {
                 
 
                 <div className="bg-gray-100 px-5 py-10 border-t-[6px] mt-10 border-t-amber-700 border-b">
-                    <img className="w-[70%] mx-auto" src="https://asset.routledge.com/rt-files/AUTHOR/TandF_LOGO-01.png" alt="" />
+                    <img className="w-[70%] mx-auto" src="https://i.ibb.co/SdBsMc7/Picsart-24-06-29-15-18-39-711-removebg-preview.png" alt="" />
                     <h1 className="text-2xl my-5">Expert book editing support from cover to cover</h1>
                     <p>For authors who would like English language support, our  Book Editing service  offers you the opportunity to have your work reviewed by editing experts.</p>
                 </div>
@@ -159,7 +159,7 @@ function Guidelines() {
                 <div className="bg-gray-100 px-5 py-5 border-t-[6px] mt-10 border-t-amber-700 border-b">
                     
                     <h1 className="text-2xl my-5">Books Data Sharing Policy</h1>
-                    <p>From April 2021, all new Taylor & Francis publications entering the production process will be encouraged to adhere to the following Data Sharing Policy.</p>
+                    <p>From April 2021, all new TRC Sapphires Publisher publications entering the production process will be encouraged to adhere to the following Data Sharing Policy.</p>
                     <div className="w-full mt-4 mb-8 flex justify-center items-center">
                         <button className="bg-amber-700 py-2 w-fit rounded-md px-3 text-lg font-sans uppercase text-white">
                         Learn More 

@@ -22,7 +22,7 @@ function AboutNav() {
         },
         {
             nav: 'Careers',
-            navlink: '/'
+            navlink: '/careers'
         },
         {
             nav: 'Our policies',

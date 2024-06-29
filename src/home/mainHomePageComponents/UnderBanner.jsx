@@ -107,7 +107,7 @@ function UnderBanner() {
 
                     <div className=' lg:text-[1.6rem] text-base font-sans mt-14 text-[#a57c00] lg:w-[80%] w-full ml-auto  font-bold'>
                         <li className='flex  md:items-center gap-3'><FaDotCircle className='text-xl' /> Only 21% of theses and scientific studies are published.</li>
-                        <li className='flex  md:items-center gap-3'><FaDotCircle className='text-xl' />Leaving 78% of valuable research unknown to the world.</li>
+                        <li className='flex mt-4  md:items-center gap-3'><FaDotCircle className='text-xl' />Leaving 78% of valuable research unknown to the world.</li>
                     </div>
 
                     <div className='text-center lg:text-[1.6rem] text-base font-sans mt-14 text-[#a57c00] md:leading-10'>

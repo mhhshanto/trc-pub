@@ -84,7 +84,7 @@ function Serve() {
     ]
 
     return (
-        <div className='lg:mt-28 mt-16'>
+        <div className='lg:mt-[110px] mt-16'>
             <div className='bg-[url("https://taylorandfrancis.com/wp-content/uploads/2021/02/24865311989_167fb77aba_k-400.jpg")] bg-cover bg-no-repeat '>
                 <div className='bg-[#00000082]'>
                     <h1 className='pt-20 pb-5 text-3xl md:container px-3 text-white'>Who We Serve</h1>

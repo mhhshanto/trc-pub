@@ -17,8 +17,8 @@ function Footer() {
                     <div className='flex justify-center flex-wrap gap-y-2 items-center'>
                         <Link className='border-r-2 border-black px-3 text-sm hover:underline'>Contact</Link>
                         <Link className='border-r-2 border-black px-3 text-sm hover:underline'>Accessibility</Link>
-                        <Link className='border-r-2 border-black px-3 text-sm hover:underline'>Contact</Link>
-                        <Link className='border-r-2 border-black px-3 text-sm hover:underline'>Contact</Link>
+                        <Link to={'/careers'} className='border-r-2 border-black px-3 text-sm hover:underline'>Careers</Link>
+                        <Link to={'/news'} className='border-r-2 border-black px-3 text-sm hover:underline'>News & Events</Link>
                         <Link className=' px-3 text-sm hover:underline'>Terms & Conditions</Link>
                     </div>
                     <div className='flex justify-center items-center text-3xl gap-3'>

@@ -26,7 +26,7 @@ function CustomModal() {
 
     return (
         <div>
-            <Button className='py-1 lg:px-4 md:px-4 px-2 !bg-[#A57C00] hover:bg-[#C09B30] transition duration-300 !rounded-full lg:text-base text-sm !text-white font-semibold' onClick={onOpen}>Publish with us</Button>
+            <button className='sm:py-2 py-[0.27rem] lg:px-4 md:px-4 px-2 !bg-[#A57C00] hover:bg-[#C09B30] transition duration-300 !rounded-full lg:text-base text-sm !text-white sm:font-semibold' onClick={onOpen}>Publish with us</button>
             <Modal isOpen={isOpen} onClose={onClose}>
                 <ModalOverlay />
                 <ModalContent>

@@ -5,7 +5,7 @@ function OurBrands() {
 
     const data = [
         {
-            img: 'https://taylorandfrancis.com/wp-content/uploads/2021/03/taylor-francis-blue-280.png',
+            img: 'https://i.ibb.co/SdBsMc7/Picsart-24-06-29-15-18-39-711-removebg-preview.png',
             description: 'TRC Sapphire Publisher publishes research from the forefront of science, medicine, technology, and engineering. We partner with world-class authors and researchers to bring knowledge to life. Our journals program began in 1798 with the publication of Philosophical Magazine. Since then, the knowledge we’ve published has helped to shape human understanding and drive policy, discoveries, and change. Our publishing program also shares cutting-edge research via digital hubs, video, data publication, impact statements, open citations, and more. We also offer medical communications agencies a wide range of additional publishing solutions, including our market-leading Plain Language Summary service.'
         },
         {
@@ -17,8 +17,8 @@ function OurBrands() {
             description: 'CRC Press is a premier global publisher of science, technology, and medical resources. We offer unique, trusted content by expert authors, spreading knowledge and promoting discovery worldwide. We aim to broaden thinking and advance understanding in the sciences, providing researchers, academics, professionals, and students with the tools they need to share ideas and realize their potential.'
         },
         {
-            img: 'https://taylorandfrancis.com/wp-content/uploads/2021/07/F1000-Logo-Graphite_sm.png',
-            description: 'F1000 fosters a culture of innovation to accelerate the reach of knowledge and put it in the hands of those who will shape the future. We provide open research publishing solutions to an array of research organizations, learned societies, institutions, and funders, as well as directly to researchers through our own rapid, transparent publishing platforms, such as F1000Research.'
+            img: 'https://i.ibb.co/m0ZX3f4/images1.png',
+            description: 'F5000 fosters a culture of innovation to accelerate the reach of knowledge and put it in the hands of those who will shape the future. We provide open research publishing solutions to an array of research organizations, learned societies, institutions, and funders, as well as directly to researchers through our own rapid, transparent publishing platforms, such as F1000Research.'
         },
         {
             img: 'https://taylorandfrancis.com/wp-content/uploads/2019/09/dovepress.png',
@@ -41,7 +41,7 @@ function OurBrands() {
         {
             img: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/screenshot-tfe.jpg',
             description: `is one of the world’s largest collections of eBooks in science, technology, engineering, medicine, humanities and social science.`,
-            link:'Taylor and Francis e-books'
+            link:'TRC Sapphires Publisher e-books'
         },
         {
             img: 'https://taylorandfrancis.com/wp-content/uploads/2022/03/f1000-homepage-22.jpg',

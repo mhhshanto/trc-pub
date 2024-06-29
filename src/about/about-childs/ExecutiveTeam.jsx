@@ -40,7 +40,7 @@ function ExecutiveTeam() {
 
 
     return (
-        <div className='lg:mt-28 mt-16'>
+        <div className='lg:mt-[110px] mt-16'>
             <div className='bg-[radial-gradient(#ffeb3b,#ff9800)]'>
                 <div className='bg-[#00000077]'>
                     <h1 className='pt-20 pb-5 text-3xl md:container px-3 text-white'>Executive Leadership Team</h1>

@@ -92,7 +92,7 @@ function Navbar() {
 
                 </button>
                 <Link to={'/'}>
-                    <img className='lg:w-16 w-12 rounded' src="https://i.ibb.co/NpPrSdh/Whats-App-Image-2024-06-23-at-11-51-18-5bacf376.jpg" alt="" />
+                    <img className='md:w-40 w-24 ' src="https://i.ibb.co/jMnxZtW/Picsart-24-06-29-15-18-39-711-removebg-preview1.png" alt="" />
                 </Link>
                 <div className='lg:flex justify-between items-center w-[50%] mx-auto hidden'>
                     {/* {

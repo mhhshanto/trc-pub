@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -41,10 +41,12 @@ function News() {
 
     ]
 
-
+    useEffect(()=>{
+        window.scrollTo(0,0)
+  },[])
 
     return (
-        <div className='lg:mt-28 mt-16'>
+        <div className='lg:mt-[110px] mt-16'>
             <div className='bg-[url("https://newsroom.taylorandfrancisgroup.com/wp-content/uploads/2021/04/newsroom-front-page-hero-scaled.jpg")] bg-cover bg-no-repeat '>
                 <div className='bg-[#091a7999] text-white lg:px-20 px-3  xl:w-[45%] md:w-[75%] w-[90%] lg:w-[65%] mx-auto flex flex-col gap-y-4'>
                     <h1 className='md:pt-20 pt-10 pb-5 text-3xl md:container  text-white text-center font-medium'>Welcome to the Newsroom</h1>

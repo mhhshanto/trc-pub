@@ -38,7 +38,7 @@ function About() {
 
 
     return (
-        <div className='lg:mt-28 mt-16'>
+        <div className='lg:mt-[110px] mt-16'>
             <div className='bg-[url("https://taylorandfrancis.com/wp-content/uploads/2022/09/header-about-us.jpeg")] bg-cover bg-no-repeat '>
                 <div className='bg-[#00000082]'>
                     <h1 className='pt-20 pb-5 text-3xl md:container px-3 text-white'>About TRC Sapphire Publisher</h1>

@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
 
 function Careers() {
@@ -33,7 +34,9 @@ function Careers() {
 
     ]
 
-   
+   useEffect(()=>{
+         window.scrollTo(0,0)
+   },[])
 
     return (
         <div>

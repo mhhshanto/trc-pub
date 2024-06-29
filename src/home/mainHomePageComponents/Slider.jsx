@@ -62,7 +62,7 @@ function Slider() {
 
 
     return (
-        <div className='lg:mt-28 mt-16 text-white xl:gap-24 gap-10 md:px-24 sm:px-12 px-10 py-10 mx-auto relative flex flex-col-reverse lg:flex-row  items-center justify-between bg-gradient-to-r from-[#050740] to-[#10147e]'>
+        <div className='lg:mt-[110px] mt-16 text-white xl:gap-24 gap-10 md:px-24 sm:px-12 px-10 py-10 mx-auto relative flex flex-col-reverse lg:flex-row  items-center justify-between bg-gradient-to-r from-[#050740] to-[#10147e]'>
             <div className={`lg:w-[50%] xl:pl-5 ${isOpen? 'opacity-100': 'opacity-0'}`}>
                 <h1 className="xl:text-6xl sm:text-5xl text-3xl">{slidData[index]?.title}</h1>
                 <p className="xl:text-4xl sm:text-3xl text-xl mt-10 ">{slidData[index]?.subTitle}</p>

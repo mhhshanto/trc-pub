@@ -63,7 +63,7 @@ function DyPress() {
         <div className="flex md:flex-row flex-col gap-10">
             <div className="md:w-[66%]">
                 <h1 className="text-4xl font-medium font-serif ">The Publishing Process</h1>
-                <h2 className="sm:text-3xl text-2xl mt-5 font-semibold">The TRC Sapphires Publisher books publishing process consists of 10 key stages.</h2>
+                <h2 className="sm:text-3xl text-2xl mt-5 font-semibold">The TRC Sapphire Publisher books publishing process consists of 10 key stages.</h2>
 
                 <p className="my-4">Learn about the basic steps to our publishing process for transforming an idea to an authoritative book for academic study or professional development.</p>
 

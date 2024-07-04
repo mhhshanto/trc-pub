@@ -49,18 +49,18 @@ function About() {
             <div className='flex flex-col-reverse md:flex-row gap-5 sm:container mx-auto px-3 my-8'>
                 <div className='md:w-[66%]'>
                     <p className='font-bold text-gray-700'>TRC Sapphire Publisher is one of the world’s leading academic publishers – and one of its most enduring.</p>
-                    <p className='mt-5 text-gray-700'><span className='font-bold'>TRC Sapphires Publisher</span> stands as a cornerstone in the academic publishing realm, dedicated to advancing knowledge, fostering critical thinking, and amplifying scholarly discourse. With a steadfast commitment to academic excellence, integrity, and innovation, TRC Sapphires Publisher serves as a trusted partner for academics, researchers, and institutions worldwide.</p>
+                    <p className='mt-5 text-gray-700'><span className='font-bold'>TRC Sapphire Publisher</span> stands as a cornerstone in the academic publishing realm, dedicated to advancing knowledge, fostering critical thinking, and amplifying scholarly discourse. With a steadfast commitment to academic excellence, integrity, and innovation, TRC Sapphire Publisher serves as a trusted partner for academics, researchers, and institutions worldwide.</p>
 
                     <h1 className='mt-14 text-3xl text-gray-700'>Mission Statement:</h1>
                     
                    <div className='mt-5'>
-                   <li className='mt-3'>Our mission at TRC Sapphires Publisher is to facilitate the dissemination of cutting-edge research, scholarly insights, and educational resources that shape the future of academia and society. </li>
+                   <li className='mt-3'>Our mission at TRC Sapphire Publisher is to facilitate the dissemination of cutting-edge research, scholarly insights, and educational resources that shape the future of academia and society. </li>
                    <li className="mt-3">We are driven by a passion for knowledge and a commitment to empowering scholars to make meaningful contributions to their fields.</li>
                    <li className="mt-3">Publishing a book is a significant milestone for any author, and choosing the right publisher can make all the difference.</li>
                    <li className="mt-3">Converting a thesis into a book is a significant endeavor that requires careful planning, restructuring, and refining to adapt the content for a broader audience and publication format</li>
                    </div>
 
-                    <h1 className='mt-14 text-3xl text-gray-700'>Why Choose TRC Sapphires Publisher:</h1>
+                    <h1 className='mt-14 text-3xl text-gray-700'>Why Choose TRC Sapphire Publisher:</h1>
                     <p className='mt-5 text-gray-700'>
                     Publishing an academic book is a significant milestone in any scholar's career, and choosing the right publisher is crucial for maximizing the impact and visibility of your work.
                     </p>
@@ -149,7 +149,7 @@ function About() {
                     </div>
 
                     <p className='mt-5 text-gray-700'>
-                    At TRC Sapphires Publisher, we believe that academic publishing is not just about disseminating knowledge but also about inspiring intellectual curiosity, fostering interdisciplinary dialogue, and shaping the future of scholarship. Join us in our mission to elevate academic excellence and contribute to the advancement of knowledge and understanding in every field of study.
+                    At TRC Sapphire Publisher, we believe that academic publishing is not just about disseminating knowledge but also about inspiring intellectual curiosity, fostering interdisciplinary dialogue, and shaping the future of scholarship. Join us in our mission to elevate academic excellence and contribute to the advancement of knowledge and understanding in every field of study.
                     </p>
 
                     <h1 className='mt-14 text-3xl text-gray-700'>A commitment to people and knowledge</h1>

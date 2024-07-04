@@ -23,6 +23,21 @@ import DyHome from "../dynamic-content/DyHome";
 import UnderDynamic from "../dynamic-content/UnderDynamic";
 import DyPress from "../dynamic-content/DyPress";
 import Guidelines from "../dynamic-content/Guidelines";
+import Login from "../loginAndRegister/Login";
+import Register from "../loginAndRegister/Register";
+import Dashboard from "../dashboard/Dashboard";
+import PrivateRouter from "./PrivateRouter";
+import PostBlog from "../dashboard/PostBlog";
+import ManageBlog from "../dashboard/ManageBlog";
+import EditBlog from "../dashboard/EditBlog";
+import Profile from "../dashboard/Profile";
+import Shopper from "../dashboard/Profile-components/Shopper";
+import Author from "../dashboard/Profile-components/Author";
+import Instructor from "../dashboard/Profile-components/Instructor";
+import Shop from "../shop-subject/Shop";
+import AdminPrivate from "./AdminPrivate";
+import AllNews from "../news-and-events/AllNews";
+import UserPrivate from "./UserPrivate";
 
 
 
@@ -34,6 +49,14 @@ export const router = createBrowserRouter([
         {
           path:'/',
           element:<Home/>
+        },
+        {
+          path:'/login',
+          element:<Login/>
+        },
+        {
+          path:'/register',
+          element:<Register/>
         },
         {
           path:'/under-development',
@@ -52,8 +75,16 @@ export const router = createBrowserRouter([
           element:<Contact/>
         },
         {
+          path:'/shop-by-subject',
+          element:<Shop/>
+        },
+        {
           path:'/news',
           element:<News/>
+        },
+        {
+          path:'/news/all-news',
+          element:<AllNews/>
         },
         {
           path:'/careers',
@@ -128,5 +159,42 @@ export const router = createBrowserRouter([
     {
       path:'*',
       element: <NotFound/>
+    },
+    {
+      path:'/dashboard',
+      element: <PrivateRouter><Dashboard/></PrivateRouter>,
+      children:[
+        {
+          path:'/dashboard',
+          element:<UserPrivate><Profile/></UserPrivate>,
+          children:[
+            {
+              path:'/dashboard/',
+              element: <Shopper/> 
+            },
+            {
+              path:'/dashboard/author',
+              element: <Author/> 
+            },
+            {
+              path:'/dashboard/instructor',
+              element: <Instructor/> 
+            },
+          ]
+        },
+        {
+          path:'/dashboard/post-blog',
+          element:<AdminPrivate><PostBlog/></AdminPrivate>
+        },
+        {
+          path:'/dashboard/manage-blog',
+          element:<AdminPrivate><ManageBlog/></AdminPrivate>
+        },
+        {
+          path:'/dashboard/edit-blog/:id',
+          element:<AdminPrivate><EditBlog/></AdminPrivate>,
+          loader:({params})=> fetch(`https://hasib-vai-second-project.vercel.app/news/${params.id}`), 
+        },
+      ]
     },
   ]);

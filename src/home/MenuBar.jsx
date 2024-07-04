@@ -2,10 +2,13 @@ import React from 'react'
 import { CiSearch } from 'react-icons/ci'
 import { FaUser } from 'react-icons/fa'
 import { TiWorld } from 'react-icons/ti'
-import { NavLink , Link} from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import AboutNav from './mainHomePageComponents/AboutNav'
+import { BiSolidLogInCircle } from "react-icons/bi";
+import { FaSignInAlt } from "react-icons/fa";
+import { MdSpaceDashboard } from "react-icons/md";
 
-function MenuBar({ navbar, isOpen, setIsOpen }) {
+function MenuBar({ navbar, isOpen, setIsOpen, user, role }) {
     return (
         <div className='pb-3'>
             {
@@ -13,7 +16,7 @@ function MenuBar({ navbar, isOpen, setIsOpen }) {
                     {
                         item.nav === 'About' &&
                         <div className='group-hover:visible invisible absolute top-10 z-10 hover:transition duration-300'>
-                            <AboutNav />
+                            <AboutNav isOpen={isOpen} setIsOpen={setIsOpen} />
                         </div>
                     }
                 </div>)
@@ -23,6 +26,20 @@ function MenuBar({ navbar, isOpen, setIsOpen }) {
             <Link onClick={() => setIsOpen(!isOpen)} to={'/careers'}>
                 <button className='flex text-black  text-base font-semibold border-b border-gray-600 px-5 py-2 hover:bg-[#ffcf3f] p-2 duration-300 transition-all justify-start gap-1 items-center w-full'><FaUser className='font-bold' />Careers</button>
             </Link>
+            {
+                user ?
+                    <Link onClick={() => setIsOpen(!isOpen)} to={role === 'user' ? '/dashboard': '/dashboard/post-blog'}>
+                        <button className='flex text-black  text-base font-semibold border-b border-gray-600 px-5 py-2 hover:bg-[#ffcf3f] p-2 duration-300 transition-all justify-start gap-1 items-center w-full'><MdSpaceDashboard  className='font-bold' />Dashboard</button>
+                    </Link> :
+                    <>
+                        <Link onClick={() => setIsOpen(!isOpen)} to={'/login'}>
+                            <button className='flex text-black  text-base font-semibold border-b border-gray-600 px-5 py-2 hover:bg-[#ffcf3f] p-2 duration-300 transition-all justify-start gap-1 items-center w-full'><FaSignInAlt className='font-bold' />Login</button>
+                        </Link>
+                        <Link onClick={() => setIsOpen(!isOpen)} to={'/register'}>
+                            <button className='flex text-black  text-base font-semibold border-b border-gray-600 px-5 py-2 hover:bg-[#ffcf3f] p-2 duration-300 transition-all justify-start gap-1 items-center w-full'><BiSolidLogInCircle className='font-bold' />Create Account</button>
+                        </Link>
+                    </>
+            }
             <button className='flex text-black  text-base font-semibold border-b border-gray-600 px-5 py-2 hover:bg-[#ffcf3f] p-2 duration-300 transition-all justify-start gap-1 items-center w-full'><TiWorld className='font-bold text-[18px]' />Regions</button>
 
             <div className={` transition-all duration-500 w-[90%] mx-auto flex p-[1px] my-2  justify-center items-center bg-white rounded-full overflow-hidden`}>

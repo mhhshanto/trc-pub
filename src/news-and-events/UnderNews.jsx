@@ -1,34 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import useGetAllNews from '../hooks/useGetAllNews'
 
 function UnderNews() {
 
-    const data = [
-        {
-            img: 'https://newsroom.taylorandfrancisgroup.com/wp-content/uploads/2024/06/LGBTQ-sex-ed-300x200.jpg',
-            title: 'U.S Sexual Health Curriculum Could Force LGBTQ+ Students to Seek Potentially Inaccurate Education Outside of School'
-        },
-        {
-            img: 'https://newsroom.taylorandfrancisgroup.com/wp-content/uploads/2024/06/AI-policy-for-researchers-300x141.png',
-            title: 'TRC Sapphire Publisher Issues Expanded Guidance on AI Application for Authors, Editors and Reviewers'
-        },
-        {
-            img: 'https://newsroom.taylorandfrancisgroup.com/wp-content/uploads/2024/06/An-Integrative-Approach-to-Treating-Eating-Disorders-300x200.png',
-            title: 'Psychosocial Skills Can Stop Relapse in People with Eating Disorders, Says Expert'
-        },
-        {
-            img: 'https://newsroom.taylorandfrancisgroup.com/wp-content/uploads/2024/06/Untitled-design-64-300x200.png',
-            title: 'Only Around Half of Individuals Disclose or Believe They Should Reveal Having an STI Prior to Sexual Intercourse, Research to-date Suggests'
-        },
-        {
-            img: 'https://newsroom.taylorandfrancisgroup.com/wp-content/uploads/2024/05/Genyornis-newtoni-Jacob-C-Blokland-300x200.png',
-            title: 'Giant skull of Australian megafauna bird reveals a prehistoric ‘giga-goose’'
-        },
-        {
-            img: 'https://newsroom.taylorandfrancisgroup.com/wp-content/uploads/2024/05/Untitled-design-62-300x200.png',
-            title: 'Bird Flu: Diverse Range of Vaccines Platforms “Crucial” for Enhancing Human Pandemic Preparedness'
-        },
-    ]
-
+    const [data] = useGetAllNews(6)
 
 
     return (
@@ -41,18 +17,18 @@ function UnderNews() {
 
                 <div className='flex flex-col xl:flex-row xl:gap-5 gap-20'>
                     <div className='xl:w-[66%] lg:w-[80%]'>
-                        <div className='flex gap-5 items-center'>
+                        {/* <div className='flex gap-5 items-center'>
                             <p className='text-nowrap text-lg font-medium'>Filter by</p>
                             <select className='w-full border border-gray-300 py-2 px-3 rounded' name="" id="">
                                 <option value="Latest (all releases)">Latest (all releases)</option>
-                                <option value="TRC Sapphires Publisher News">TRC Sapphires Publisher News</option>
+                                <option value="TRC Sapphire Publisher News">TRC Sapphire Publisher News</option>
                                 <option value="Most Popular Articles">Most Popular Articles</option>
                                 <option value="Upcoming Events">Upcoming Events</option>
                                 <option value="Journal Submissions">Journal Submissions</option>
                             </select>
-                        </div>
+                        </div> */}
 
-                        <div className='my-10 flex flex-col md:flex-row gap-10'>
+                        {/* <div className='my-10 flex flex-col md:flex-row gap-10'>
                             <div className='relative md:mx-0 mx-auto bg-[url("https://newsroom.taylorandfrancisgroup.com/wp-content/uploads/2024/06/construction-300x200.png")] bg-no-repeat md:w-[40%] w-full h-60'>
                                 <p className='bg-gray-50 absolute top-0 left-0 p-1'>Breaking research</p>
                             </div>
@@ -61,23 +37,26 @@ function UnderNews() {
                                 <h1 className='text-2xl font-semibold text-amber-700 underline'>Guess work can be taken out of big builds with new ECU application</h1>
                                 <p className='text-lg'>Medium and large-scale construction projects will have a better chance of success if they are able to adhere to a set of success criteria, new research from Edith Cowan University (ECU) found. ECU Lecturer Dr Neda Kiani Mavi has developed a system that could help builders take the guess work out of the feasibility of construction projects. […]</p>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-x-5 gap-y-7'>
                             {
-                                data.map((item, index) => {
+                                data?.map((item, index) => {
                                     return (
                                         <div key={index} className=''>
                                             <img className='w-full h-32' src={item?.img} alt="" />
 
 
-                                            <p className='text-sm mt-5 mb-3 text-gray-400'>June 20, 2024</p>
+                                            <p className='text-sm mt-5 mb-3 text-gray-400'>{item?.date}</p>
                                             <h1 className='text-xl font-semibold text-amber-700 underline'>{item?.title}</h1>
                                         </div>
                                     )
                                 })
                             }
                         </div>
+                        <Link to={'/news/all-news'}>
+                            <p className='mt-10 lg:mt-20 font-semibold text-xl underline hover:text-amber-700'>See More</p>
+                        </Link>
 
                     </div>
                     <div className='xl:w-[34%] lg:w-[50%]'>

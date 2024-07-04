@@ -102,7 +102,7 @@ function UnderBanner() {
 
             <div className='bg-[#ffbf001c] py-14'>
                 <div className='container mx-auto lg:px-28 md:px-10 px-5 '>
-                    <h1 className='xl:text-5xl lg:text-4xl text-2xl  font-medium font-sans text-[#a57c00] text-center'>TRC Sapphires Publisher: Elevating Academic Excellence</h1>
+                    <h1 className='xl:text-5xl lg:text-4xl text-2xl  font-medium font-sans text-[#a57c00] text-center'>TRC Sapphire Publisher: Elevating Academic Excellence</h1>
                     <p className='text-center lg:text-[1.6rem] text-base font-sans mt-14 text-[#a57c00] md:leading-10'><span className='font-bold'>Introduction:</span> We are pleased to introduce ourselves as a pioneering publisher dedicated to bridging the gap between academic research and global dissemination. Through a comprehensive survey spanning 900 universities worldwide, we have identified a significant disparity</p>
 
                     <div className=' lg:text-[1.6rem] text-base font-sans mt-14 text-[#a57c00] lg:w-[80%] w-full ml-auto  font-bold'>

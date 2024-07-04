@@ -37,8 +37,8 @@ function Footer() {
                         <p className='mt-6 text-sm'>Registered office is 5 Howick Place, London, SW1P 1WG.
                             <br /> Registered in England and Wales Number 1072954. Registered for VAT: GB 365 4626 36.</p>
                     </div>
-                    <div className='lg:w-72 w-60' src="https://taylorandfrancis.com/wp-content/themes/u_new2tfg/assets/img/structure/logo.svg">
-                        <img src="https://taylorandfrancis.com/wp-content/themes/u_new2tfg/assets/img/tfgroup-logo-rev.svg" alt="" />
+                    <div className='lg:w-52 w-32 flex gap-2'>
+                        <img src="https://i.ibb.co/jMnxZtW/Picsart-24-06-29-15-18-39-711-removebg-preview1.png" alt="" />
                     </div>
                 </div>
             </div>

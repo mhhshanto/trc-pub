@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function AboutNav() {
+function AboutNav({isOpen,setIsOpen}) {
 
     const navbar = [
         {
@@ -40,7 +40,7 @@ function AboutNav() {
         {
             navbar.map((item,index)=> {
                 return(
-                    <Link to={item?.navlink} key={index} className='block border-b text-nowrap px-5 transition duration-300 hover:text-yellow-600 py-2'>{item.nav}</Link>
+                    <Link onClick={()=> setIsOpen(!isOpen)} to={item?.navlink} key={index} className='block border-b text-nowrap px-5 transition duration-300 hover:text-yellow-600 py-2'>{item.nav}</Link>
                 )
             })
         }

@@ -41,7 +41,7 @@ function OurBrands() {
         {
             img: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/screenshot-tfe.jpg',
             description: `is one of the world’s largest collections of eBooks in science, technology, engineering, medicine, humanities and social science.`,
-            link:'TRC Sapphires Publisher e-books'
+            link:'TRC Sapphire Publisher e-books'
         },
         {
             img: 'https://taylorandfrancis.com/wp-content/uploads/2022/03/f1000-homepage-22.jpg',

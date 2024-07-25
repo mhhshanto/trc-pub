@@ -8,30 +8,30 @@ function AboutNav({isOpen,setIsOpen}) {
             nav: 'Company',
             navlink: '/about/'
         },
-        {
-            nav: 'Our brands',
-            navlink: '/about/our-brands'
-        },
+        // {
+        //     nav: 'Our brands',
+        //     navlink: '/about/our-brands'
+        // },
         {
             nav: 'Executive leadership team',
             navlink: '/about/executive-leadership-team'
         },
-        {
-            nav: 'Our history',
-            navlink: '/'
-        },
-        {
-            nav: 'Careers',
-            navlink: '/careers'
-        },
-        {
-            nav: 'Our policies',
-            navlink: '/'
-        },
-        {
-            nav: 'Corporate responsibility',
-            navlink: '/'
-        },
+        // {
+        //     nav: 'Our history',
+        //     navlink: '/'
+        // },
+        // {
+        //     nav: 'Careers',
+        //     navlink: '/careers'
+        // },
+        // {
+        //     nav: 'Our policies',
+        //     navlink: '/'
+        // },
+        // {
+        //     nav: 'Corporate responsibility',
+        //     navlink: '/'
+        // },
     ]
 
 

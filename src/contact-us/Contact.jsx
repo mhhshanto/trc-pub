@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { RiArrowRightSLine } from "react-icons/ri";
 import { RxDoubleArrowRight } from "react-icons/rx";
+import toast from 'react-hot-toast';
 
 
 function Contact() {
@@ -86,6 +87,15 @@ function Contact() {
     ]
 
 
+    const copyToClipboard = () => {
+        const text = document.getElementById('copyText').innerText;
+        navigator.clipboard.writeText(text).then(() => {
+          toast.success('Email copied to clipboard!');
+        }).catch(err => {
+          console.error('Failed to copy text: ', err);
+        });
+      };
+
 
     return (
         <div className='lg:mt-[110px] mt-16'>
@@ -96,7 +106,11 @@ function Contact() {
                 </div>
             </div>
 
-            <div className='flex h-[40vh] flex-col-reverse md:flex-row gap-5 sm:container mx-auto px-3 my-8'>
+            <div className='flex h-[40vh] justify-center items-center md:flex-row gap-5 sm:container mx-auto px-3 my-8'>
+                <div className='bg-gray-100 px-10 rounded-md py-5'>
+                    <h1 className='text-3xl mb-5 font-semibold text-center'>Our Mail Address</h1>
+                    <p id='copyText' onClick={copyToClipboard} className='px-2 py-1 bg-white rounded-md font-semibold cursor-pointer'>info@trc-sapphirepublisher.com</p>
+                </div>
                 {/* <div className='md:w-[66%]'>
 
                     <h1 className='text-3xl border-gray-300 border-b pb-3  text-gray-700'>Headquarters</h1>

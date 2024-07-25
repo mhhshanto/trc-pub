@@ -1,4 +1,4 @@
-
+import {Link} from 'react-router-dom'
 
 function UnderDynamic() {
     return (
@@ -29,7 +29,7 @@ function UnderDynamic() {
                 <h1 className="text-2xl mt-6 mb-4">What a book proposal consists of</h1>
 
                 <p className="my-4">
-                    In essence, a book proposal is a document which provides an initial overview of a book or open access book project in advance of completing a book manuscript. For a detailed overview of what you will be expected to provide, please read our book proposal guidelines.
+                    In essence, a book proposal is a document which provides an initial overview of a book or open access book project in advance of completing a book manuscript. For a detailed overview of what you will be expected to provide, please <a className="text-blue-900 underline" href="https://docs.google.com/document/d/1qjZMsEP-0ufnt2EYV0w89D8n_1cBKkSJ/edit?usp=sharing&ouid=117407267001751774296&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">read our book proposal guidelines.</a>
                 </p>
                 <p className="my-4">
                     Research-level books are often published as part of an established series, so having an awareness of existing books in such series can be useful when it comes to framing and developing your proposal.
@@ -52,25 +52,27 @@ function UnderDynamic() {
 
             </div>
             <div className="md:w-[34%] sm:w-[50%] sm:mx-auto mb-14">
-                <div className="bg-gray-100 px-5 sm:py-10 py-5 border-t-[6px] border-t-amber-700 border-b">
+                <div className="bg-gray-100 px-5 sm:py-7 py-5 border-t-[6px] border-t-amber-700 border-b">
                     <h1 className="text-2xl">Wondering how to write a book proposal?</h1>
-                    <img className="w-[75%] mx-auto mt-4" src="https://i.ibb.co/0ykkmPX/cover-how-to-write-a-successful-book-proposal-3.jpg" alt="" />
+                    {/* <img className="w-[75%] mx-auto mt-4" src="https://i.ibb.co/0ykkmPX/cover-how-to-write-a-successful-book-proposal-3.jpg" alt="" /> */}
                     <p className="text-center mt-4">To help you prepare your book proposal, read this <span className="font-semibold">free resource</span> with tips from our global books editorial team.</p>
                     <div className="w-full mt-4 mb-8 flex justify-center items-center">
-                        <button className="bg-amber-700 py-2 w-fit rounded-md px-3 text-xl uppercase text-white">
-                            start reading
-                        </button>
+                        <Link to='/start-reading'>
+                            <button className="bg-amber-700 py-2 w-fit rounded-md px-3 text-xl uppercase text-white">
+                                start reading
+                            </button>
+                        </Link>
                     </div>
                 </div>
 
                 <div className="bg-gray-100 px-5 py-10 border-t-[6px] mt-10 border-t-amber-700 border-b">
                     <h1 className="text-2xl mb-5">Helpful Resources</h1>
                     <div className="underline">
-                    <li>Overview of the publishing process</li>
-                    <li>Overview of our products, customers, and readers</li>
-                    <li>List of Editorial contacts</li>
-                    <li>Proposal guidelines</li>
-                    <li>Book Proposal FAQs</li>
+                        <li>Overview of the publishing process</li>
+                        <li>Overview of our products, customers, and readers</li>
+                        <li>List of Editorial contacts</li>
+                        <li>Proposal guidelines</li>
+                        <li>Book Proposal FAQs</li>
                     </div>
                 </div>
 

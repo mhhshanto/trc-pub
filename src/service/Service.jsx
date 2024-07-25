@@ -2,6 +2,7 @@ import React from 'react'
 import { RiArrowRightSLine } from 'react-icons/ri'
 import { Link } from 'react-router-dom'
 import { IoSearch } from "react-icons/io5";
+import bgImg1 from '../../public/WhatsApp Image 2024-07-09 at 17.58.10_2301f7e6.jpg'
 
 function Service() {
 
@@ -81,7 +82,7 @@ function Service() {
 
     const data = [
         {
-            HTitle: 'High-quality English language editing services encompass several key aspects:',
+            HTitle: 'High-quality English Language Editing Services Encompass Several Key Aspects:',
             title: '',
             listItem: [
                 {
@@ -348,7 +349,7 @@ function Service() {
 
             <div className="md:container mx-auto px-3">
 
-                <h1 className='text-gray-700 text-3xl pb-2 mb-6'>Services</h1>
+                <h1 className='pb-2 mb-6  rounded  text-3xl font-bold  bg-black w-fit text-amber-300 px-4'>Services</h1>
 
 
                 {/* <div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 mb-10'>
@@ -372,17 +373,17 @@ function Service() {
                 {
                     data.map((HItem, HIndex) => {
                         return (
-                            <div key={HIndex} className='md:my-20 bg-[#f3f1f0] p-5 my-14'>
-                                <h1 className='md:text-4xl text-3xl mb-10 font-semibold text-center'>{HItem?.HTitle}</h1>
-                                <p className="my-7 sm:text-xl font-medium">
+                            <div key={HIndex} style={{backgroundImage: `url("${bgImg1}")`}} className={`md:my-20 rounded-lg p-5 my-14`}>
+                                <h1 className='md:text-4xl text-3xl mb-10 font-serif tracking-wider capitalize text-gray-800 font-bold text-stroke-service'>{HItem?.HTitle}</h1>
+                                <p className="my-7 sm:text-xl capitalize font-medium">
                                     {HItem?.title}
                                 </p>
                                 <div className='grid lg:grid-cols-2 grid-cols-1 md:gap-10 gap-5'>
                                     {
                                         HItem?.listItem?.map((item, index) => {
                                             return (
-                                                <div key={index} className={`flex `}>
-                                                    <div className='flex gap-1 mt-3'>
+                                                <div key={index} className={`flex bg-white px-5 py-3 rounded-lg shadow-[0_8px_30px_rgb(0,0,0,0.12)]`}>
+                                                    <div className='flex gap-1 text-lg mt-3'>
                                                         <span className='font-bold'>{index + 1}.</span>
                                                         <p className=''><span className='font-bold'>
                                                             {item?.LTitle }:

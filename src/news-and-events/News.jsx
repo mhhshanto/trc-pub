@@ -7,6 +7,7 @@ import { BsInstagram } from "react-icons/bs";
 import UnderNews from './UnderNews';
 import { RxCross2 } from 'react-icons/rx';
 import { IoMdMenu } from 'react-icons/io';
+import bannerImg from '../../public/submit_icons/newsBannerImg.jpg'
 
 
 function News() {
@@ -47,7 +48,7 @@ function News() {
 
     return (
         <div className='lg:mt-[110px] mt-16'>
-            <div className='bg-[url("https://newsroom.taylorandfrancisgroup.com/wp-content/uploads/2021/04/newsroom-front-page-hero-scaled.jpg")] bg-cover bg-no-repeat '>
+            {/* <div style={{backgroundImage: `url("${bannerImg}")`}} className='bg-cover object-cover bg-no-repeat '>
                 <div className='bg-[#091a7999] text-white lg:px-20 px-3  xl:w-[45%] md:w-[75%] w-[90%] lg:w-[65%] mx-auto flex flex-col gap-y-4'>
                     <h1 className='md:pt-20 pt-10 pb-5 text-3xl md:container  text-white text-center font-medium'>Welcome to the Newsroom</h1>
                     <p className='font-medium text-lg text-center'>Bringing you breaking research that develops practice, impacts policy, and drives change that resonates around the world.</p>
@@ -61,7 +62,7 @@ function News() {
                         <BsInstagram />
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className={`bg-gray-200 relative border-b-amber-600 border-b-[3px]`}>
                 <div className='md:container mx-auto px-3 md:flex hidden justify-start items-center gap-1'>
                     {

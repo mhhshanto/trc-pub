@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { AiOutlineFileSearch } from "react-icons/ai";
 import { PiBookOpenTextThin } from "react-icons/pi";
 import { GrPersonalComputer } from "react-icons/gr";
 import { FaDotCircle } from "react-icons/fa";
+import { useState } from 'react';
+import { storage } from '../../firebase.config';
+import toast from 'react-hot-toast';
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 function UnderBanner() {
+    const [image,setImage] = useState(null);
 
     const data = [
         {
@@ -26,7 +33,7 @@ function UnderBanner() {
 
 
     const data2 = [
-        
+
         {
             img: 'https://i.ibb.co/bWCF7Gp/download.jpg',
             title: 'Academic Excellence',
@@ -66,15 +73,28 @@ function UnderBanner() {
 
     ]
 
+    const upload = ()=> {
+         console.log(image);
+         const imageRef = storage.ref(`/images/${image.name}`).put(image).on("state change", toast('image uploaded successfully'), alert)
+         imageRef();
+    }
 
+    useEffect(() => {
+        Aos.init();
+        Aos.refresh();
+    }, []);
 
     return (
         <>
-            <div className='my-10 container mx-auto 2xl:px-36 xl:px-10 px-3 flex lg:flex-row flex-col justify-between lg:gap-10  gap-5 '>
+            {/* <div>
+                <input onChange={(e)=> setImage(e.target.files[0])} type="file" />
+                <button className='bg-gray-300 mx-5 p-2' onClick={upload}>Upload</button>
+            </div> */}
+            <div   className='my-10 container mx-auto 2xl:px-36 xl:px-10 px-3 flex lg:flex-row flex-col justify-between lg:gap-10  gap-5 '>
                 <div className='xl:w-[35%] w-full'>
-                    <h1 className='text-2xl mb-3 font-bold text-center'>Core Values:</h1>
+                    <h1 className='text-3xl text-[#a57c00] mb-3 font-bold  text-center'>Core Values:</h1>
                     {
-                        data.map((item, index) => <div className='p-6 flex gap-5 bg-[#ffbf003a] hover:bg-[#fdfdfd] transition-all duration-200 mb-[2px] justify-between' key={index}>
+                        data.map((item, index) => <div data-aos="fade-up" data-aos-duration="1000" className='p-6 flex gap-5 bg-[#ffbf003a] hover:bg-[#fdfdfd] transition-all duration-200 mb-[2px] justify-between' key={index}>
                             <div className='md:text-5xl text-4xl text-[#a57c00] font-semibold'>{item.icon}</div>
                             <div>
                                 <h1 className='text-2xl text-[#a57c00] hover:underline font-bold'>{item.title}</h1>
@@ -85,7 +105,7 @@ function UnderBanner() {
                 </div>
                 <div className='xl:w-[65%] mt-11 w-full grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-1'>
                     {
-                        data2.map((item, index) => <div key={index} className='relative h-52 group cursor-pointer'>
+                        data2.map((item, index) => <div data-aos='fade-left' data-aos-duration='1000' key={index} className='relative h-52 group cursor-pointer'>
                             <div className='absolute top-0 w-full h-full group-hover:h-[28%] group-hover:bg-[#ffbe00] transition-all duration-300  bg-gradient-to-t from-transparent to-[#ffbe00]'>
                                 <h1 className='text-center font-semibold text-xl text-black '>{item.title}</h1>
                             </div>

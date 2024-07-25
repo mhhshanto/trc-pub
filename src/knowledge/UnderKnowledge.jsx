@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './knowledge.css'
 
 function UnderKnowledge() {
@@ -6,51 +7,63 @@ function UnderKnowledge() {
     const data1 = [
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image24-150x150.png',
-            title: 'Bioscience'
+            title: 'Bioscience',
+            link:'/knowledge/bioscience'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image25-150x150.png',
-            title: 'Chemistry'
+            title: 'Chemistry',
+            link:'/knowledge/chemistry'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image26-150x150.png',
-            title: 'Computer & Information Sciences'
+            title: 'Computer & Information Sciences',
+            link:'/knowledge/Computer-Information-Sciences'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image27-150x150.png',
-            title: 'Earth Sciences'
+            title: 'Earth Sciences',
+            link:'/knowledge/earth-sciences'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image28-150x150.png',
-            title: 'Environment & Agriculture'
+            title: 'Environment & Agriculture',
+            link:'/knowledge/Environment-Agriculture'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image29-150x150.png',
-            title: 'Environment & Sustainability'
+            title: 'Environment & Sustainability',
+            link:'/knowledge/Environment-Sustainability'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image30-150x150.png',
-            title: 'Environmental Sciences'
+            title: 'Environmental Sciences',
+            link:'/knowledge/Environmental-Sciences'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image31-150x150.png',
-            title: 'Food Science & Technology'
+            title: 'Food Science & Technology',
+            link:'/knowledge/Food-Science-Technology'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image32-150x150.png',
-            title: 'Information Science'
+            title: 'Information Science',
+            link:'/knowledge/Information-Science'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image33-150x150.png',
-            title: 'Mathematics'
+            title: 'Mathematics',
+            link:'/knowledge/Mathematics'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image34-150x150.png',
-            title: 'Physical Sciences'
+            title: 'Physical Sciences',
+            link:'/knowledge/Physical-Sciences'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image35-150x150.png',
-            title: 'Statistics'
+            title: 'Statistics',
+            link:'/knowledge/Statistics'
         },
     ];
     
@@ -58,115 +71,143 @@ function UnderKnowledge() {
     const data3 = [
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2023/10/Addiction-and-treatment-icon-150x150.png',
-            title: 'Addiction & Treatment'
+            title: 'Addiction & Treatment',
+            link:'/knowledge/Addiction-Treatment'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image44-150x150.png',
-            title: 'Allied Health'
+            title: 'Allied Health',
+            link:'/knowledge/Allied-Health'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2021/04/icon-anesthesiology.png',
-            title: 'Anesthesiology'
+            title: 'Anesthesiology',
+            link:'/knowledge/Anesthesiology'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/noun_Left-Brain-Activity_281814-150x150.png',
-            title: 'Behavioral Health and Medicine'
+            title: 'Behavioral Health and Medicine',
+            link:'/knowledge/Behavioral-Health-Medicine'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2021/04/icon-cardiology.png',
-            title: 'Cardiology'
+            title: 'Cardiology',
+            link:'/knowledge/Cardiology'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image47-150x150.png',
-            title: 'Clinical Medicine'
+            title: 'Clinical Medicine',
+            link:'/knowledge/Clinical-Medicine'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image45-150x150.png',
-            title: 'Dentistry'
+            title: 'Dentistry',
+            link:'/knowledge/Dentistry'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/12/icon-dermatology-3349890-150x150.png',
-            title: 'Dermatology'
+            title: 'Dermatology',
+            link:'/knowledge/Dermatology'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/11/icon-metabolism.png',
-            title: 'Endocrinology'
+            title: 'Endocrinology',
+            link:'/knowledge/Endocrinology'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/expert-icon-150x150.png',
-            title: 'Expert Collection'
+            title: 'Expert Collection',
+            link:'/knowledge/Expert-Collection'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/06/Hematology.png',
-            title: 'Hematology'
+            title: 'Hematology',
+            link:'/knowledge/Hematology'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/noun_Hospital_1658509-150x150.png',
-            title: 'Hospitals and Health Systems'
+            title: 'Hospitals and Health Systems',
+            link:'/knowledge/Hospitals-Health-Systems'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/06/Immunology-icon.png',
-            title: 'Immunology'
+            title: 'Immunology',
+            link:'/knowledge/Immunology'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2021/04/icon-infectious-diseases-150x150.png',
-            title: 'Infectious Diseases'
+            title: 'Infectious Diseases',
+            link:'/knowledge/Infectious-Diseases'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2023/01/icon-Nephrology-150x150.png',
-            title: 'Nephrology'
+            title: 'Nephrology',
+            link:'/knowledge/Nephrology'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2021/01/icpon-neurology-150x150.png',
-            title: 'Neurology'
+            title: 'Neurology',
+            link:'/knowledge/Neurology'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image48-150x150.png',
-            title: 'Nursing'
+            title: 'Nursing',
+            link:'/knowledge/Nursing'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/Oncology-150x150.png',
-            title: 'Oncology'
+            title: 'Oncology',
+            link:'/knowledge/Oncology'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2021/05/icon-pediatrics-2.png',
-            title: 'Pediatrics'
+            title: 'Pediatrics',
+            link:'/knowledge/Pediatrics'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image46-150x150.png',
-            title: 'Pharmaceutical Sciences'
+            title: 'Pharmaceutical Sciences',
+            link:'/knowledge/Pharmaceutical-Sciences'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2021/01/icon-psychiatry-150x150.png',
-            title: 'Psychiatry'
+            title: 'Psychiatry',
+            link:'/knowledge/Psychiatry'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/06/public-health-icon.png',
-            title: 'Public Health'
+            title: 'Public Health',
+            link:'/knowledge/Public-Health'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2021/01/icon-radiology-150x150.png',
-            title: 'Radiology'
+            title: 'Radiology',
+            link:'/knowledge/Radiology'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2023/10/Substance-Use-Misuse-icon.png',
-            title: 'Substance Use & Misuse'
+            title: 'Substance Use & Misuse',
+            link:'/knowledge/Substance-Use-Misuse'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/noun_Surgery_1827537-150x150.png',
-            title: 'Surgery'
+            title: 'Surgery',
+            link:'/knowledge/Surgery'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2023/02/icon-urology-150x150.png',
-            title: 'Urology'
+            title: 'Urology',
+            link:'/knowledge/Urology'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/noun_Track_987393-150x150.png',
-            title: 'Veterinary Medicine'
+            title: 'Veterinary Medicine',
+            link:'/knowledge/Veterinary-Medicine'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/womens_health-150x150.png',
-            title: 'Women’s Health'
+            title: 'Women’s Health',
+            link:'/knowledge/Women-Health'
         },
         
     ];
@@ -174,116 +215,144 @@ function UnderKnowledge() {
 
     const data2 = [
         {
-            iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image2-150x150.png',
-            title: 'Area Studies'
+            iconImg: 'https://i.ibb.co/Tvg2HqG/images-1-removebg-preview.png',
+            title: 'Area Studies',
+            link:'/knowledge/Area-Studies'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image3-e1619457963424-150x150.png',
-            title: 'Arts'
+            title: 'Arts',
+            link:'/knowledge/Arts'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image4-150x150.png',
-            title: 'Behavioural Sciences'
+            title: 'Behavioural Sciences',
+            link:'/knowledge/Behavioural-Sciences'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image5-150x150.png',
-            title: 'Built Environment'
+            title: 'Built Environment',
+            link:'/knowledge/Built-Environment'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image6-150x150.png',
-            title: 'Business & Management'
+            title: 'Business & Management',
+            link:'/knowledge/Business-Management'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image7-150x150.png',
-            title: 'Communication Studies'
+            title: 'Communication Studies',
+            link:'/knowledge/Communication-Studies'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image9-150x150.png',
-            title: 'Economics'
+            title: 'Economics',
+            link:'/knowledge/Economics'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image10.png',
-            title: 'Education'
+            title: 'Education',
+            link:'/knowledge/Education'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image11-150x150.png',
-            title: 'Finance'
+            title: 'Finance',
+            link:'/knowledge/Finance'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image12-150x150.png',
-            title: 'Geography'
+            title: 'Geography',
+            link:'/knowledge/Geography'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image8-150x150.png',
-            title: 'Global Development'
+            title: 'Global Development',
+            link:'/knowledge/Global-Development'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2021/01/icon-history-150x150.png',
-            title: 'History'
+            title: 'History',
+            link:'/knowledge/History'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/10/humanity-150x150-1-150x150.png',
-            title: 'Humanities and Social Sciences'
+            title: 'Humanities and Social Sciences',
+            link:'/knowledge/Humanities-Social-Sciences'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image14-150x150.png',
-            title: 'International Relations'
+            title: 'International Relations',
+            link:'/knowledge/International-Relations'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image15-150x150.png',
-            title: 'Language'
+            title: 'Language',
+            link:'/knowledge/Language'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image16-150x150.png',
-            title: 'Law'
+            title: 'Law',
+            link:'/knowledge/Law'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image17-150x150.png',
-            title: 'Literature'
+            title: 'Literature',
+            link:'/knowledge/Literature'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image18-150x150.png',
-            title: 'Museum and Heritage Studies'
+            title: 'Museum and Heritage Studies',
+            link:'/knowledge/Museum-Heritage'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/06/icon-Philosophy.png',
-            title: 'Philosophy'
+            title: 'Philosophy',
+            link:'/knowledge/Philosophy'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image19-150x150.png',
-            title: 'Politics'
+            title: 'Politics',
+            link:'/knowledge/Politics'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image20-150x150.png',
-            title: 'Psychology'
+            title: 'Psychology',
+            link:'/knowledge/Psychology'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image21-150x150.png',
-            title: 'Religion'
+            title: 'Religion',
+            link:'/knowledge/Religion'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2021/01/icon-routledge-encyclopedia-of-modernism-150x150.png',
-            title: 'Routledge Encyclopedia of Modernism'
+            title: 'Routledge Encyclopedia of Modernism',
+            link:'/knowledge/'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2021/01/icon-routledge-handbooks-online-150x150.png',
-            title: 'Routledge Handbooks Online'
+            title: 'Routledge Handbooks Online',
+            link:'/knowledge/'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2021/04/icon-sociology-150x150.png',
-            title: 'Sociology'
+            title: 'Sociology',
+            link:'/knowledge/Sociology'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image22-150x150.png',
-            title: 'Tourism, Hospitality and Events'
+            title: 'Tourism, Hospitality and Events',
+            link:'/knowledge/Tourism-Hospitality-Events'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2020/05/image23-150x150.png',
-            title: 'Urban Studies'
+            title: 'Urban Studies',
+            link:'/knowledge/Urban-Studies'
         },
         {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2021/01/icon-world-whos-who-150x150.png',
-            title: `World Who's Who`
+            title: `World Who's Who`,
+            link:'/knowledge/'
         },
        
     ];
@@ -360,10 +429,10 @@ function UnderKnowledge() {
                             {
                                 data1.map((item, index) => {
                                     return (
-                                        <div key={index} className='p-4 flex flex-col 2xl:w-[15.3%] xl:w-[22%] lg:w-[26%] md:w-[18%] sm:w-[23%] w-[47%] justify-center hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition duration-300 items-center gap-1 bg-slate-50 border border-gray-300 group'>
+                                        <Link to={item?.link} key={index} className='p-4 flex flex-col 2xl:w-[15.3%] xl:w-[22%] lg:w-[26%] md:w-[18%] sm:w-[23%] w-[47%] justify-center hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition duration-300 items-center gap-1 bg-slate-50 border border-gray-300 group'>
                                             <img className='aspect-square knowledgeImg w-12 transition duration-300' src={item?.iconImg} alt="" />
                                             <p className='font-medium text-sm text-center group-hover:text-black text-gray-500'>{item?.title}</p>
-                                        </div>
+                                        </Link>
                                     )
                                 })
                             }
@@ -377,10 +446,10 @@ function UnderKnowledge() {
                             {
                                 data2.map((item, index) => {
                                     return (
-                                        <div key={index} className='p-4 flex 2xl:w-[15.3%] xl:w-[22%] lg:w-[26%] md:w-[18%] sm:w-[23%] w-[47%] flex-col justify-center hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition duration-300 items-center gap-1 bg-slate-50 border border-gray-300 group'>
-                                            <img className='aspect-square knowledgeImg w-12 transition duration-300' src={item?.iconImg} alt="" />
+                                        <Link to={item?.link} key={index} className='p-4 flex 2xl:w-[15.3%] xl:w-[22%] lg:w-[26%] md:w-[18%] sm:w-[23%] w-[47%] flex-col justify-center hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition duration-300 items-center gap-1 bg-slate-50 border border-gray-300 group'>
+                                            <img className='aspect-square knowledgeImg object-cover w-12 transition duration-300' src={item?.iconImg} alt="" />
                                             <p className='font-medium text-sm text-center group-hover:text-black text-gray-500'>{item?.title}</p>
-                                        </div>
+                                        </Link>
                                     )
                                 })
                             }
@@ -396,10 +465,10 @@ function UnderKnowledge() {
                             {
                                 data3.map((item, index) => {
                                     return (
-                                        <div key={index} className='p-4 2xl:w-[15.3%] xl:w-[22%] lg:w-[26%] md:w-[18%] sm:w-[23%] w-[47%] flex flex-col justify-center hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition duration-300 items-center gap-1 bg-slate-50 border border-gray-300 group'>
+                                        <Link to={item?.link} key={index} className='p-4 2xl:w-[15.3%] xl:w-[22%] lg:w-[26%] md:w-[18%] sm:w-[23%] w-[47%] flex flex-col justify-center hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition duration-300 items-center gap-1 bg-slate-50 border border-gray-300 group'>
                                             <img className='aspect-square knowledgeImg w-12 transition duration-300' src={item?.iconImg} alt="" />
                                             <p className='font-medium text-sm text-center group-hover:text-black text-gray-500'>{item?.title}</p>
-                                        </div>
+                                        </Link>
                                     )
                                 })
                             }

@@ -12,7 +12,7 @@ function UnderNews() {
             <div className='md:container mx-auto px-3'>
                 <div className='flex sm:flex-row flex-col gap-5 justify-between  sm:items-center my-10'>
                     <h1 className='sm:text-3xl text-2xl font-medium text-amber-700'>Press releases</h1>
-                    <p className='sm:text-lg font-medium underline hover:no-underline cursor-pointer'>View all press releases</p>
+                    <Link to={'/news/all-news'} className='sm:text-lg font-medium underline hover:no-underline cursor-pointer'>View all press releases</Link>
                 </div>
 
                 <div className='flex flex-col xl:flex-row xl:gap-5 gap-20'>
@@ -62,11 +62,11 @@ function UnderNews() {
                     <div className='xl:w-[34%] lg:w-[50%]'>
                         <div className='border-t-2 py-7 border-amber-700'>
                             <h1 className='text-2xl font-semibold text-amber-700'>Embargo Area</h1>
-                            <p className='text-lg my-3'><span className='text-blue-900 font-semibold underline cursor-pointer'>Log in</span> to the Embargo Area for exclusive access to breaking research news, ahead of publication.</p>
+                            <p className='text-lg my-3'><span className='text-blue-900 font-semibold underline cursor-pointer'><Link to={'/login'}>Log in</Link></span> to the Embargo Area for exclusive access to breaking research news, ahead of publication.</p>
                         </div>
                         <div className='border-t-2 py-7 border-amber-700'>
                             <h1 className='text-2xl font-semibold text-amber-700'>Contacts</h1>
-                            <p className='text-lg my-3'>Find the best <span className='text-blue-900 font-semibold underline cursor-pointer'>contact</span> for all media queries.</p>
+                            <p className='text-lg my-3'>Find the best <span className='text-blue-900 font-semibold underline cursor-pointer'><Link to={'/contact-us'}>contact</Link></span> for all media queries.</p>
                         </div>
                         <div className='border-t-2 py-7 border-amber-700'>
                             <h1 className='text-2xl font-semibold text-amber-700'>Speak to an expert</h1>
@@ -84,7 +84,7 @@ function UnderNews() {
                     </div>
                 </div>
 
-                <div className='mt-24'>
+                {/* <div className='mt-24'>
                     <p className='text-2xl text-center  text-gray-400'>
                         TRC Sapphire Publisher is proud to support the following organisations
                     </p>
@@ -95,14 +95,14 @@ function UnderNews() {
                         <img src="https://newsroom.taylorandfrancisgroup.com/wp-content/themes/JTF-child-group/img/logo-aussmc.png" alt="" />
                         <img src="https://newsroom.taylorandfrancisgroup.com/wp-content/themes/JTF-child-group/img/logo-mcera.png" alt="" />
                     </div>
-                </div>
+                </div> */}
             </div>
-            <div className='mt-20 bg-amber-700 py-6'>
+            {/* <div className='mt-20 bg-amber-700 py-6'>
                 <div className='flex items-center lg:container mx-auto px-3'>
                     <p className='md:text-xl font-medium text-white underline px-2 border-r border-gray-100'>Routledge.com</p>
                     <p className='md:text-xl font-medium text-white underline px-2 '>TRC Sapphire Publisher Online</p>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

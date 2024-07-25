@@ -17,7 +17,7 @@ function Footer() {
                     <div className='flex justify-center flex-wrap gap-y-2 items-center'>
                         <Link className='border-r-2 border-black px-3 text-sm hover:underline'>Contact</Link>
                         <Link className='border-r-2 border-black px-3 text-sm hover:underline'>Accessibility</Link>
-                        <Link to={'/careers'} className='border-r-2 border-black px-3 text-sm hover:underline'>Careers</Link>
+                        {/* <Link to={'/careers'} className='border-r-2 border-black px-3 text-sm hover:underline'>Careers</Link> */}
                         <Link to={'/news'} className='border-r-2 border-black px-3 text-sm hover:underline'>News & Events</Link>
                         <Link className=' px-3 text-sm hover:underline'>Terms & Conditions</Link>
                     </div>
@@ -34,8 +34,7 @@ function Footer() {
                 <div className='container mx-auto flex lg:flex-row flex-col-reverse px-2 lg:px-0 justify-between gap-y-6 lg:items-center'> 
                     <div>
                         <p>© {year} Informa UK Limited, an Informa Group Company.</p>
-                        <p className='mt-6 text-sm'>Registered office is 5 Howick Place, London, SW1P 1WG.
-                            <br /> Registered in England and Wales Number 1072954. Registered for VAT: GB 365 4626 36.</p>
+                        
                     </div>
                     <div className='lg:w-52 w-32 flex gap-2'>
                         <img src="https://i.ibb.co/jMnxZtW/Picsart-24-06-29-15-18-39-711-removebg-preview1.png" alt="" />

@@ -6,82 +6,39 @@ function SubjectArea() {
 
   const data = [
     {
-      title: 'MEDICINE & HEALTHCARE',
+      title: 'SUBJECTS',
       links: [
-        "Bioscience Journal",
-        "Hospital Software Solutions",
-        "Biomedical Innovations",
-        "Health Analytics Platforms",
-        "Clinical Trials",
-        "Medical Device Manufacturers",
-        "Biotech Incubators",
-        "Hospital Quality Improvement",
-        "Genomics Research",
-        "Telemedicine Platforms",
-        "Pharmaceutical Companies",
-        "Health Informatics",
-        "Biopharma Research",
-        "Hospital Accreditation",
-        "Bioinformatics Tools",
-        "Health Supply Chain Management",
-        "Molecular Diagnostics Labs",
-        "Hospitality in Healthcare",
-        "Stem Cell Research",
-        "Hospital Benchmarking Reports"
+        "Subject",
+        "Subject",
+        "Subject",
+        "Subject",
+        "Subject",
+        "Subject",
+      ]
+    },
+    {
+      title: 'SUBJECTS',
+      links: [
+        "Subject",
+        "Subject",
+        "Subject",
+        "Subject",
+        "Subject",
+        "Subject",
+      ]
+    },
+    {
+      title: 'SUBJECTS',
+      links: [
+        "Subject",
+        "Subject",
+        "Subject",
+        "Subject",
+        "Subject",
+        "Subject",
       ]
     },
 
-    {
-      title: 'MEDICINE & HEALTHCARE',
-      links: [
-        "Bioscience Journal",
-        "Hospital Software Solutions",
-        "Biomedical Innovations",
-        "Health Analytics Platforms",
-        "Clinical Trials",
-        "Medical Device Manufacturers",
-        "Biotech Incubators",
-        "Hospital Quality Improvement",
-        "Genomics Research",
-        "Telemedicine Platforms",
-        "Pharmaceutical Companies",
-        "Health Informatics",
-        "Biopharma Research",
-        "Hospital Accreditation",
-        "Bioinformatics Tools",
-        "Health Supply Chain Management",
-        "Molecular Diagnostics Labs",
-        "Hospitality in Healthcare",
-        "Stem Cell Research",
-        "Hospital Benchmarking Reports"
-      ]
-    },
-
-    {
-      title: 'HUMANITIES & SOCIAL SCIENCES',
-      links: [
-        "Bioscience Journal",
-        "Hospital Software Solutions",
-        "Biomedical Innovations",
-        "Health Analytics Platforms",
-        "Clinical Trials",
-        "Medical Device Manufacturers",
-        "Biotech Incubators",
-        "Hospital Quality Improvement",
-        "Genomics Research",
-        "Telemedicine Platforms",
-        "Pharmaceutical Companies",
-        "Health Informatics",
-        "Biopharma Research",
-        "Hospital Accreditation",
-        "Bioinformatics Tools",
-        "Health Supply Chain Management",
-        "Molecular Diagnostics Labs",
-        "Hospitality in Healthcare",
-        "Stem Cell Research",
-        "Hospital Benchmarking Reports"
-      ]
-    },
   ]
 
 
@@ -104,7 +61,7 @@ function SubjectArea() {
             data.map((item, index) => <div key={index}>
               <h1 className='text-xl mb-4'>{item.title}</h1>
               {
-                item.links.map((item, index) => <p key={index} className='my-[2px] text-[0.95rem] hover:underline'><Link>{item}</Link></p>)
+                item.links.map((item, index) => <p key={index} className='my-[2px] text-[0.95rem] hover:underline'><Link>{item}-{index+1}</Link></p>)
               }
 
             </div>)

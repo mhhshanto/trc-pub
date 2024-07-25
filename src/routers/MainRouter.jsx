@@ -38,6 +38,9 @@ import Shop from "../shop-subject/Shop";
 import AdminPrivate from "./AdminPrivate";
 import AllNews from "../news-and-events/AllNews";
 import UserPrivate from "./UserPrivate";
+import SubmitPro from "../submitProposal/SubmitPro";
+import StartReading from "../dynamic-content/start-reading/StartReading";
+import { knowledgeChild } from "./KnowledgeChild";
 
 
 
@@ -59,12 +62,20 @@ export const router = createBrowserRouter([
           element:<Register/>
         },
         {
+          path:'/start-reading',
+          element:<StartReading/>
+        },
+        {
           path:'/under-development',
           element: <Development/>
         },
         {
           path:'/knowledge',
           element:<Knowledge/>
+        },
+        {
+          path:'/submit-your-proposal',
+          element:<SubmitPro/>
         },
         {
           path:'/service',
@@ -151,9 +162,10 @@ export const router = createBrowserRouter([
             {
               path:'/dynamicContent/:title/publishing-guidelines',
               element:<Guidelines/>
-            },
+            }
           ]
-        }
+        },
+        ...knowledgeChild
       ]
     },
     {

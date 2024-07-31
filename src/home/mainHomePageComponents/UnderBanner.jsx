@@ -35,39 +35,39 @@ function UnderBanner() {
     const data2 = [
 
         {
-            img: 'https://i.ibb.co/bWCF7Gp/download.jpg',
+            img: '../../../public/fromImgBB/download.jpg',
             title: 'Academic Excellence',
         },
         {
-            img: 'https://i.ibb.co/GMKBqN4/download-1.jpg',
+            img: '../../../public/fromImgBB/download-1.jpg',
             title: 'Expertise in Academic Publishing',
         },
         {
-            img: 'https://i.ibb.co/2jpdJ3m/download-2.jpg',
+            img: '../../../public/fromImgBB/download-2.jpg',
             title: 'Personalized Approach',
         },
         {
-            img: 'https://i.ibb.co/rMvfswN/download-3.jpg',
+            img: '../../../public/fromImgBB/download-3.jpg',
             title: 'Quality Production',
         },
         {
-            img: 'https://i.ibb.co/Hgvmfkn/download-4.jpg',
+            img: '../../../public/fromImgBB/download-4.jpg',
             title: 'Global Distribution Networks',
         },
         {
-            img: 'https://i.ibb.co/MgNG8WD/download-5.jpg',
+            img: '../../../public/fromImgBB/download-5.jpg',
             title: 'Professional Editorial Services',
         },
         {
-            img: 'https://i.ibb.co/fQXfg5Q/download-6.jpg',
+            img: '../../../public/fromImgBB/download-6.jpg',
             title: 'Personalized Support',
         },
         {
-            img: 'https://i.ibb.co/PCtFw14/download-7.jpg',
+            img: '../../../public/fromImgBB/download-7.jpg',
             title: 'Author Rights and Ownership',
         },
         {
-            img: 'https://i.ibb.co/PrFhMf6/download-8.jpg',
+            img: '../../../public/fromImgBB/download-8.jpg',
             title: 'Long-Term Partnership',
         },
 

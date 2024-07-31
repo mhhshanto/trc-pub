@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import AboutNav from './AboutNav'
 import Aos from "aos";
 import "aos/dist/aos.css";
+import bannerImg from '../../../public/fromImgBB/mainBannerImg.jpg'
 
 function StaticSlider() {
 
@@ -47,7 +48,7 @@ function StaticSlider() {
     }, []);
 
     return (
-        <div className='lg:mt-[110px]  text-black xl:gap-24 gap-10 md:px-24 sm:px-12 px-3 2xl:py-32 py-14 mx-auto relative flex flex-col-reverse lg:flex-row  items-start justify-between bg-[url("https://i.ibb.co/Xyc8GJ1/Whats-App-Image-2024-07-08-at-18-25-06-787e55c2.jpg")] bg-right-top bg-no-repeat bg-cover'>
+        <div style={{backgroundImage: `url('${bannerImg}')`}} className='lg:mt-[110px]  text-black xl:gap-24 gap-10 md:px-24 sm:px-12 px-3 2xl:py-32 py-14 mx-auto relative flex flex-col-reverse lg:flex-row  items-start justify-between  bg-right-top bg-no-repeat bg-cover'>
             <div  className={`lg:w-[50%] xl:pl-5`}>
                 <h1  className="xl:text-5xl font-semibold"><span data-aos="fade-right" data-aos-duration="1000" className='sm:text-8xl  block font-extrabold text-[#ffb400] text-stroke-3 text-5xl'>TRC Sapphire Publisher</span><br /><span data-aos="fade-right" data-aos-duration="1000" className='sm:text-[55px] text-3xl'> Elevating Academic Excellence</span></h1>
                 <p className="sm:text-2xl font-medium text-xl mt-10  ">Publishing a book is a significant milestone for any author, and choosing the right publisher can make all the difference. Here are ten compelling reasons why publishing your book with TRC Publisher could be a great choice.</p>

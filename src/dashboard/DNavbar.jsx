@@ -78,7 +78,7 @@ function DNavbar({ isTrue, setIsTrue }) {
             <div className={`bg-amber-50 transition duration-300 w-full  ${isTrue ? 'translate-x-0 md:min-h-screen' : '-translate-x-96'}`}>
                 <div className="p-3 h-20 shadow-md flex gap-x-4 justify-between items-center">
                     <Link className='md:w-full sm:w-[25%] w-[40%] md:h-full' to={'/'}>
-                        <img className='h-full w-full' src='https://i.ibb.co/jMnxZtW/Picsart-24-06-29-15-18-39-711-removebg-preview1.png' alt='image' />
+                        <img className='h-full w-full' src='../../public/fromImgBB/logoImg.png' alt='image' />
                     </Link>
                     <button onClick={() => setIsTrue(!isTrue)} className="hover:scale-105 transition duration-200 h-fit p-2 bg-amber-600 text-white rounded-full"><RxCross2 /></button>
                 </div>

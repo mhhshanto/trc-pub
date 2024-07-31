@@ -37,7 +37,7 @@ function Footer() {
                         
                     </div>
                     <div className='lg:w-52 w-32 flex gap-2'>
-                        <img src="https://i.ibb.co/jMnxZtW/Picsart-24-06-29-15-18-39-711-removebg-preview1.png" alt="" />
+                        <img src="../../public/fromImgBB/logoImg.png" alt="" />
                     </div>
                 </div>
             </div>

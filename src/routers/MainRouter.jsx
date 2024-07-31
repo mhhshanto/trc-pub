@@ -41,6 +41,7 @@ import UserPrivate from "./UserPrivate";
 import SubmitPro from "../submitProposal/SubmitPro";
 import StartReading from "../dynamic-content/start-reading/StartReading";
 import { knowledgeChild } from "./KnowledgeChild";
+import PublishingGuidelines from "../dynamic-content/PublishGuid";
 
 
 
@@ -161,8 +162,8 @@ export const router = createBrowserRouter([
             },
             {
               path:'/dynamicContent/:title/publishing-guidelines',
-              element:<Guidelines/>
-            }
+              element:<PublishingGuidelines/>
+            },
           ]
         },
         ...knowledgeChild

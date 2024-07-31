@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './knowledge.css'
+import iconImg from '../../public/fromImgBB/images-1-removebg-preview.png'
 
 function UnderKnowledge() {
 
@@ -215,7 +216,7 @@ function UnderKnowledge() {
 
     const data2 = [
         {
-            iconImg: 'https://i.ibb.co/Tvg2HqG/images-1-removebg-preview.png',
+            iconImg: iconImg,
             title: 'Area Studies',
             link:'/knowledge/Area-Studies'
         },
@@ -325,16 +326,6 @@ function UnderKnowledge() {
             link:'/knowledge/Religion'
         },
         {
-            iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2021/01/icon-routledge-encyclopedia-of-modernism-150x150.png',
-            title: 'Routledge Encyclopedia of Modernism',
-            link:'/knowledge/'
-        },
-        {
-            iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2021/01/icon-routledge-handbooks-online-150x150.png',
-            title: 'Routledge Handbooks Online',
-            link:'/knowledge/'
-        },
-        {
             iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2021/04/icon-sociology-150x150.png',
             title: 'Sociology',
             link:'/knowledge/Sociology'
@@ -349,11 +340,7 @@ function UnderKnowledge() {
             title: 'Urban Studies',
             link:'/knowledge/Urban-Studies'
         },
-        {
-            iconImg: 'https://taylorandfrancis.com/wp-content/uploads/2021/01/icon-world-whos-who-150x150.png',
-            title: `World Who's Who`,
-            link:'/knowledge/'
-        },
+       
        
     ];
     
@@ -475,12 +462,12 @@ function UnderKnowledge() {
                         </div>
                     </div>
 
-                    <div className='bg-slate-200 h-fit  py-6'>
+                    {/* <div className='bg-slate-200 h-fit  py-6'>
                         <h1 className='text-center border-gray-300 text-2xl border-b pb-5 text-amber-700'>Engineering</h1>
 
                         <div className='px-5  pt-5 flex flex-wrap justify-center  gap-3'>
                             {
-                                data4.map((item, index) => {
+                                data4?.map((item, index) => {
                                     return (
                                         <div key={index} className='p-4 flex 2xl:w-[15.3%] xl:w-[22%] lg:w-[26%] md:w-[18%] sm:w-[23%] w-[47%] flex-col justify-center hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition duration-300 items-center gap-1 bg-slate-50 border border-gray-300 group'>
                                             <img className='aspect-square knowledgeImg w-12 transition duration-300' src={item?.iconImg} alt="" />
@@ -490,7 +477,9 @@ function UnderKnowledge() {
                                 })
                             }
                         </div>
-                    </div>
+                    </div> */}
+
+
                 </div>
             </div>
         </div>

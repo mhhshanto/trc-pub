@@ -42,6 +42,8 @@ import SubmitPro from "../submitProposal/SubmitPro";
 import StartReading from "../dynamic-content/start-reading/StartReading";
 import { knowledgeChild } from "./KnowledgeChild";
 import PublishingGuidelines from "../dynamic-content/PublishGuid";
+import Books from "../books/Books";
+import BookDetails from "../books/BookDetails";
 
 
 
@@ -53,6 +55,14 @@ export const router = createBrowserRouter([
         {
           path:'/',
           element:<Home/>
+        },
+        {
+           path:'/books',
+           element:<Books/>
+        },
+        {
+           path:'/books/:slug',
+           element:<BookDetails/>,
         },
         {
           path:'/login',

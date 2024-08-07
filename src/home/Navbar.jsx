@@ -129,7 +129,7 @@ function Navbar() {
 
                     </button>
                     <Link  to={'/'}>
-                        <img data-aos="fade-up" data-aos-duration="300" className='md:w-40 w-24 ' src="../../public/fromImgBB/logoImg.png" alt="" />
+                        <img data-aos="fade-up" data-aos-duration="300" className='md:w-40 w-24 ' src="/fromImgBB/logoImg.png" alt="" />
                     </Link>
                     <div className='lg:flex justify-between items-center w-[50%] mx-auto hidden'>
 

@@ -35,39 +35,39 @@ function UnderBanner() {
     const data2 = [
 
         {
-            img: '../../../public/fromImgBB/download.jpg',
+            img: '/fromImgBB/download.jpg',
             title: 'Academic Excellence',
         },
         {
-            img: '../../../public/fromImgBB/download-1.jpg',
+            img: '/fromImgBB/download-1.jpg',
             title: 'Expertise in Academic Publishing',
         },
         {
-            img: '../../../public/fromImgBB/download-2.jpg',
+            img: '/fromImgBB/download-2.jpg',
             title: 'Personalized Approach',
         },
         {
-            img: '../../../public/fromImgBB/download-3.jpg',
+            img: '/fromImgBB/download-3.jpg',
             title: 'Quality Production',
         },
         {
-            img: '../../../public/fromImgBB/download-4.jpg',
+            img: '/fromImgBB/download-4.jpg',
             title: 'Global Distribution Networks',
         },
         {
-            img: '../../../public/fromImgBB/download-5.jpg',
+            img: '/fromImgBB/download-5.jpg',
             title: 'Professional Editorial Services',
         },
         {
-            img: '../../../public/fromImgBB/download-6.jpg',
+            img: '/fromImgBB/download-6.jpg',
             title: 'Personalized Support',
         },
         {
-            img: '../../../public/fromImgBB/download-7.jpg',
+            img: '/fromImgBB/download-7.jpg',
             title: 'Author Rights and Ownership',
         },
         {
-            img: '../../../public/fromImgBB/download-8.jpg',
+            img: '/fromImgBB/download-8.jpg',
             title: 'Long-Term Partnership',
         },
 

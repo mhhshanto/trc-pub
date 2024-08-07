@@ -52,7 +52,7 @@ function DyHome() {
             <div className="md:w-[34%] sm:w-[50%] sm:mx-auto mb-14">
                 <div className="bg-gray-100 px-5 sm:py-10 py-5 border-t-[6px] border-t-amber-700 border-b">
                     <h1 className="text-2xl">Wondering how to write a book proposal?</h1>
-                    <img className="w-[75%] mx-auto mt-4" src="../../public/fromImgBB/bookProposal.jpg" alt="" />
+                    <img className="w-[75%] mx-auto mt-4" src="/fromImgBB/bookProposal.jpg" alt="" />
                     <p className="text-center mt-4">To help you prepare your book proposal, read this <span className="font-semibold">free resource</span> with tips from our global books editorial team.</p>
                     <div className="w-full mt-4 mb-8 flex justify-center items-center">
                         <button className="bg-amber-700 py-2 w-fit rounded-md px-3 text-xl uppercase text-white">
@@ -63,7 +63,7 @@ function DyHome() {
 
                 <div className="bg-gray-100 px-5 my-10 sm:py-10 py-5 border-t-[6px] border-t-amber-700 border-b">
 
-                    <img className="w-[75%] mx-auto mt-4" src="../../public/fromImgBB/trcBicLogo.jpg" alt="" />
+                    <img className="w-[75%] mx-auto mt-4" src="/fromImgBB/trcBicLogo.jpg" alt="" />
                     <p className="text-center mt-4">Are you interested to find out about our Open Access Books program? Then click the button below. </p>
                     <div className="w-full mt-4 mb-8 flex justify-center items-center">
                         <button className="bg-amber-700 py-2 w-fit rounded-md px-3 text-lg uppercase text-white">

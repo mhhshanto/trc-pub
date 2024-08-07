@@ -9,7 +9,7 @@ function BookDetails() {
 
     useEffect(() => {
         setLoading(true)
-        fetch('/public/book.json')
+        fetch('/book.json')
             .then(res => res.json())
             .then(data => {
                 const slugData = data.find((book) => book.slug === slug);

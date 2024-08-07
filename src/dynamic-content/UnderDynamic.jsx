@@ -77,7 +77,7 @@ function UnderDynamic() {
                 </div>
 
                 <div className="bg-gray-100 px-5 py-10 border-t-[6px] mt-10 border-t-amber-700 border-b">
-                    <img className="w-[70%] mx-auto" src="../../public/fromImgBB/logo2.png" alt="" />
+                    <img className="w-[70%] mx-auto" src="/fromImgBB/logo2.png" alt="" />
                     <h1 className="text-2xl my-5">Helpful Resources</h1>
                     <p>For authors who would like English language support, our Book Editing service offers you the opportunity to have your work reviewed by editing experts.</p>
                 </div>

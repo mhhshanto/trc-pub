@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 function BookDetails() {
 
@@ -43,12 +43,12 @@ function BookDetails() {
             <div className='flex md:flex-row flex-col justify-between py-5 gap-8'>
                 <div className='relative sm:w-[18%]'>
                     <img className='sm:w-full sm:h-full w-[70%]' src={arr?.img} alt="" />
-                    <img className='absolute -bottom-[14px] -left-[10px]' src="https://coverimages.igi-global.com/images/free-preview-arrow.png" alt="" />
+                    {/* <img className='absolute -bottom-[14px] -left-[10px]' src="https://coverimages.igi-global.com/images/free-preview-arrow.png" alt="" /> */}
                 </div>
                 <div className='sm:w-[82%]'>
                     <h1 className='text-2xl text-black font-medium'>{arr?.title}</h1>
                     <p className='mt-3 text-blue-800'>{arr?.wName}</p>
-
+                    
                     <div className='text-sm mt-3 flex flex-wrap flex-col'>
                         <p><span className='text-gray-500'>Indexed In: </span></p>
                         <div className='flex gap-1 flex-wrap [&>p]:border-r '>
@@ -65,6 +65,18 @@ function BookDetails() {
                             <p className='px-3'><span className='text-gray-500'>ISBN13 Softcover: </span></p>
                             <p className='px-3'><span className='text-gray-500'>EISBN13: </span></p>
                         </div>
+
+                    </div>
+                    <div className='mt-4'>
+                    <p className='mb-2 font-semibold'><span>Price:</span> ${arr?.price}</p>
+                        <Link to={'/pre-order-book'}>
+                        <button type="button" class="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 me-2 mb-2">
+                            <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 21">
+                                <path d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z" />
+                            </svg>
+                            PRE ORDER NOW
+                        </button>
+                        </Link>
                     </div>
                 </div>
 

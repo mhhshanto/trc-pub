@@ -44,6 +44,7 @@ import { knowledgeChild } from "./KnowledgeChild";
 import PublishingGuidelines from "../dynamic-content/PublishGuid";
 import Books from "../books/Books";
 import BookDetails from "../books/BookDetails";
+import Contact2 from "../contact-us/Contact2";
 
 
 
@@ -95,6 +96,10 @@ export const router = createBrowserRouter([
         {
           path:'/contact-us',
           element:<Contact/>
+        },
+        {
+          path:'/pre-order-book',
+          element:<Contact2/>
         },
         {
           path:'/shop-by-subject',

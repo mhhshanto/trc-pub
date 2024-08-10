@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import './book.css'
 
 function Books() {
 
@@ -58,7 +59,11 @@ function Books() {
                                         <p className='mb-5 text-purple-800 font-semibold'>{item?.wName}</p>
                                         <p dangerouslySetInnerHTML={{ __html: item?.des }} class="mb-3 font-normal text-gray-700 dark:text-gray-400 md:line-clamp-[8] line-clamp-4 "></p>
                                     </div>
+                                    <div>
 
+                                        <p className='text-center font-bold'><span>Price:</span> ${item?.price}</p>
+                                        <p className='font-bold text-red-700 anim text-center'>Pre Order Open</p>
+                                    </div>
                                 </div>
                             </Link>
                         )

@@ -1,6 +1,7 @@
 [
     {
         "img": "/books/DRAFT FULL COPY-images-0 (1)-min.jpg",
+        "price":"125",
         "title": "Introduction to the Philosophical Social Work",
         "slug": "introduction-to-the-philosophical-social-work",
         "wName": "Jahid Siraz Chowdhury",
@@ -8,6 +9,7 @@
     },
     {
         "img": "/books/Screenshot 2024-08-07 at 2.13.48 AM.png",
+        "price":"110",
         "title": "Stained Spirituality",
         "slug": "stained-spirituality",
         "wName": "Jahid Siraz Chowdhury, Kamal Pasa",
@@ -15,6 +17,7 @@
     },
     {
         "img": "/books/Screenshot 2024-08-07 at 2.16.20 AM.png",
+        "price":"90",
         "title": "Spiritual Social Work vol-1",
         "slug": "spiritual-social-work-vol-1",
         "wName": "Jahid Siraz Chowdhury, Kumarashwaran Vadevelu, Zulkarnain Hatta",
@@ -22,6 +25,7 @@
     },
     {
         "img": "/books/Screenshot 2024-08-07 at 2.17.33 AM.png",
+        "price":"90",
         "title": "Spiritual Social Work vol-2",
         "slug": "spiritual-social-work-vol-2",
         "wName": "Jahid Siraz Chowdhury, Kumarashwaran Vadevelu, Zulkarnain Hatta",
